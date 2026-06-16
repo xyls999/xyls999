@@ -1,15 +1,15 @@
 <!--
   xyls999 / Dovaklin profile README
   Theme: dark RPG command center, tabletop quest log, game-system UI
-  Palette: void #0D1117, steel #214E68, cyan #7DCFFF, ember #F7768E, gold #F2B35D, parchment #F5F2E8
+  Palette: void #0D1117, ink #111827, steel #214E68, cyan #7DCFFF, ember #F7768E, gold #F2B35D, parchment #F5F2E8
 -->
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0D1117,35:214E68,70:B84A62,100:F2B35D&text=Dovaklin%20%7C%20xyls999&fontColor=F5F2E8&fontSize=46&fontAlignY=36&animation=fadeIn&desc=To%20exist%20is%20to%20trust%20%7C%20To%20trust%20is%20to%20return&descAlignY=57&descSize=16" alt="Dovaklin xyls999 profile banner" />
+  <img width="100%" src="./assets/rpg-command-center.svg" alt="Dovaklin RPG command center banner" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/xyls999/xyls999"><img src="https://img.shields.io/badge/status-updating-7DCFFF?style=for-the-badge&labelColor=0D1117" alt="status updating" /></a>
+  <a href="https://github.com/xyls999/xyls999"><img src="https://img.shields.io/badge/status-live-7DCFFF?style=for-the-badge&labelColor=0D1117" alt="status live" /></a>
   <a href="https://github.com/xyls999?tab=repositories"><img src="https://img.shields.io/badge/public_repos-57-F2B35D?style=for-the-badge&labelColor=0D1117" alt="public repositories" /></a>
   <a href="https://github.com/xyls999"><img src="https://img.shields.io/github/followers/xyls999?style=for-the-badge&logo=github&labelColor=0D1117&color=F7768E" alt="GitHub followers" /></a>
   <img src="https://komarev.com/ghpvc/?username=xyls999&style=for-the-badge&color=214E68&label=PROFILE+VIEWS" alt="profile views" />
@@ -23,7 +23,7 @@
 
 <table>
   <tr>
-    <td width="58%" valign="top">
+    <td width="56%" valign="top">
       <h2>Character Sheet</h2>
       <table>
         <tr><td><b>Callsign</b></td><td>Dovaklin / xyls999</td></tr>
@@ -34,12 +34,16 @@
         <tr><td><b>Core Rule</b></td><td>Build things that can be traced, replayed, tested, and returned to.</td></tr>
       </table>
     </td>
-    <td width="42%" valign="top">
+    <td width="44%" valign="top">
       <h2>Live Stats</h2>
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=xyls999&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="xyls999 GitHub stats" />
+      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=xyls999&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="xyls999 GitHub stats" />
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img width="100%" src="./assets/boss-terminal.svg" alt="Boss terminal showing current build quests" />
+</p>
 
 ## Campaign Board
 
@@ -75,12 +79,18 @@
   <a href="https://github.com/xyls999/java-zhizelab-backend-xyls"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=xyls999&repo=java-zhizelab-backend-xyls&hide_border=true&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="java-zhizelab-backend-xyls" /></a>
 </p>
 
+## Quest Map
+
+<p align="center">
+  <img width="100%" src="./assets/quest-map.svg" alt="Dark RPG quest map" />
+</p>
+
 ## Reference Vault
 
 | Relic | Why it stays in the build |
 | --- | --- |
 | [xyls999/xyls999](https://github.com/xyls999/xyls999) | The special profile repository that renders this README on the GitHub home page. |
-| [xyls999/BEPb](https://github.com/xyls999/BEPb) | Preserved feature DNA: badges, typing SVG, stats, streak, snake, 3D calendar, metrics, trophy, counters, map, star history. |
+| [xyls999/BEPb](https://github.com/xyls999/BEPb) | Feature DNA: badges, typing SVG, stats, streak, snake, 3D calendar, metrics, counters, maps, star history. |
 | [xyls999/awesome-github-profile-readme](https://github.com/xyls999/awesome-github-profile-readme) | Inspiration library for profile categories, dynamic widgets, game-mode profiles, badges, icons, and automation. |
 | [xyls999/WorkFlowX](https://github.com/xyls999/WorkFlowX) | A useful direction for controllable, traceable, token-aware multi-agent workflows. |
 | [xyls999/HarmonyOS-mcp-server](https://github.com/xyls999/HarmonyOS-mcp-server) | Device-control spellbook for MCP and HarmonyOS experiments. |
@@ -124,12 +134,10 @@ graph LR
   <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
 </p>
 
-## Trophies
+## Achievement Board
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img width="100%" src="https://github-profile-trophy.vercel.app/?username=xyls999&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub profile trophies" />
-  </a>
+  <img width="100%" src="./assets/achievement-board.svg" alt="Local RPG achievement board" />
 </p>
 
 ## Metrics Console
@@ -138,41 +146,27 @@ graph LR
   <img width="100%" src="./github-metrics.svg" alt="GitHub metrics" />
 </p>
 
-## World Map
+## Star Routes
 
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "China",
-        "callsign": "xyls999 / Dovaklin"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.1954, 35.8617]
-      }
-    }
-  ]
-}
-```
+<p align="center">
+  <img width="100%" src="./assets/star-routes.svg" alt="Dark star route chart" />
+</p>
+
+<details>
+  <summary>External star history mirror</summary>
+
+The external Star History service is kept as an optional mirror because its default SVG is white and can show broken embedded logos on GitHub dark mode.
+
+[Open Star History](https://star-history.com/#xyls999/xyls999&Date)
+
+</details>
 
 ## Visitor Ledger
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/xyls999/count.svg" alt="classic visitor counter" />
+  <img width="100%" src="./assets/visitor-ledger.svg" alt="Local visitor ledger illustration" />
   <br />
-  <img src="https://count.getloli.com/get/@xyls999.github.readme" alt="visitor counter" />
-</p>
-
-## Star History
-
-<p align="center">
-  <a href="https://star-history.com/#xyls999/xyls999&Date">
-    <img width="100%" src="https://api.star-history.com/svg?repos=xyls999/xyls999,xyls999/roscar-first,xyls999/cs-review&type=Date" alt="Star history chart" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=xyls999&style=for-the-badge&color=214E68&label=VISITORS" alt="visitor counter" />
 </p>
 
 <details>
@@ -206,5 +200,5 @@ This build keeps the feature slots, but does not show broken third-party badges 
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:F2B35D,35:B84A62,70:214E68,100:0D1117" alt="footer wave" />
+  <img width="100%" src="./assets/footer-rift.svg" alt="Footer rift" />
 </p>
