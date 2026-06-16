@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-label="Metrics placeholder">
+  <rect width="1000" height="180" rx="8" fill="#0D1117"/>
+  <rect x="20" y="20" width="960" height="140" rx="8" fill="#111827" stroke="#214E68" stroke-width="2"/>
+  <text x="50" y="78" fill="#F2B35D" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Metrics Console</text>
+  <text x="50" y="116" fill="#F5F2E8" font-family="Segoe UI, Arial, sans-serif" font-size="18">This placeholder is replaced by .github/workflows/metrics.yml after GitHub Actions runs.</text>
+  <text x="50" y="142" fill="#7DCFFF" font-family="Segoe UI, Arial, sans-serif" font-size="14">Enable Actions write permissions, then run "Generate Metrics" once.</text>
+</svg>
