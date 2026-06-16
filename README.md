@@ -1,7 +1,6 @@
 <!--
   xyls999 / Dovaklin profile README
-  Theme: dark RPG command center, tabletop quest log, game-system UI
-  Palette: void #0D1117, ink #111827, steel #214E68, cyan #7DCFFF, ember #F7768E, gold #F2B35D, parchment #F5F2E8
+  Stable RPG portfolio build: local SVG first, external widgets only where they are reliable.
 -->
 
 <p align="center">
@@ -9,10 +8,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/xyls999/xyls999"><img src="https://img.shields.io/badge/status-live-7DCFFF?style=for-the-badge&labelColor=0D1117" alt="status live" /></a>
-  <a href="https://github.com/xyls999?tab=repositories"><img src="https://img.shields.io/badge/public_repos-57-F2B35D?style=for-the-badge&labelColor=0D1117" alt="public repositories" /></a>
+  <a href="https://github.com/xyls999?tab=repositories"><img src="https://img.shields.io/badge/repos-57-F2B35D?style=for-the-badge&labelColor=0D1117" alt="public repositories" /></a>
   <a href="https://github.com/xyls999"><img src="https://img.shields.io/github/followers/xyls999?style=for-the-badge&logo=github&labelColor=0D1117&color=F7768E" alt="GitHub followers" /></a>
   <img src="https://komarev.com/ghpvc/?username=xyls999&style=for-the-badge&color=214E68&label=PROFILE+VIEWS" alt="profile views" />
+  <a href="https://github.com/xyls999/xyls999/actions"><img src="https://img.shields.io/github/actions/workflow/status/xyls999/xyls999/profile-assets.yml?branch=main&style=for-the-badge&label=profile%20assets&labelColor=0D1117&color=7DCFFF" alt="profile assets workflow" /></a>
 </p>
 
 <p align="center">
@@ -23,20 +22,24 @@
 
 <table>
   <tr>
-    <td width="56%" valign="top">
+    <td width="50%" valign="top">
       <h2>Character Sheet</h2>
       <table>
         <tr><td><b>Callsign</b></td><td>Dovaklin / xyls999</td></tr>
         <tr><td><b>Guild</b></td><td>HUHAi</td></tr>
         <tr><td><b>Spawn Point</b></td><td>China</td></tr>
         <tr><td><b>Class</b></td><td>AI Agent builder, system toolmaker, game-minded designer</td></tr>
-        <tr><td><b>Main Quests</b></td><td>Agentic IM bots, controllable multi-agent workflows, MCP device control, OS/robotics labs, readable automation</td></tr>
-        <tr><td><b>Core Rule</b></td><td>Build things that can be traced, replayed, tested, and returned to.</td></tr>
+        <tr><td><b>Core Rule</b></td><td>Trace it, test it, return to it.</td></tr>
       </table>
     </td>
-    <td width="44%" valign="top">
-      <h2>Live Stats</h2>
-      <img width="100%" src="https://github-readme-stats.vercel.app/api?username=xyls999&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="xyls999 GitHub stats" />
+    <td width="50%" valign="top">
+      <h2>Current Build</h2>
+      <ul>
+        <li>Agentic IM bots and workflow control</li>
+        <li>MCP device control and HarmonyOS experiments</li>
+        <li>ROS / robotics labs and small systems</li>
+        <li>Java, Vue, Python, Spring, Linux, automation</li>
+      </ul>
     </td>
   </tr>
 </table>
@@ -45,15 +48,23 @@
   <img width="100%" src="./assets/boss-terminal.svg" alt="Boss terminal showing current build quests" />
 </p>
 
-## Campaign Board
+## Activity Dashboard
 
-| Route | Current arc | Signals |
-| --- | --- | --- |
-| Agent Route | IM bots, tool calling, workflow control, source-backed skills | LangBot, WorkFlowX, A2-AgentLinux, lineage-skill |
-| Device Route | MCP servers, HarmonyOS device control, robotics experiments | HarmonyOS-mcp-server, ROS car projects, robot-frie |
-| System Route | Operating systems, Linux, shell workflows, old-code archaeology | hhuOS, old-code, shell scripts |
-| App Route | Java/Spring, Vue, Python services, lab apps | zhize lab projects, news/web systems, WeChat pages |
-| Profile Route | Self-updating GitHub profile, visual systems, reusable templates | BEPb reference, awesome-github-profile-readme reference |
+<p align="center">
+  <img width="100%" src="./assets/activity-dashboard.svg" alt="Self-generated GitHub activity dashboard" />
+</p>
+
+## Project Compendium
+
+<p align="center">
+  <img width="100%" src="./assets/project-compendium.svg" alt="Clickable RPG-style project compendium" />
+</p>
+
+## Research Radar
+
+<p align="center">
+  <img width="100%" src="./assets/research-radar.svg" alt="Research radar of recently explored projects" />
+</p>
 
 ## Arsenal
 
@@ -70,54 +81,16 @@
 | Systems / Platform | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![HarmonyOS](https://img.shields.io/badge/HarmonyOS-111111?style=flat-square&logo=harmonyos&logoColor=white) ![ROS](https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white) |
 | Data / Learning | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
 
-## Featured Quests
-
-<p align="center">
-  <a href="https://github.com/xyls999/A2-AgentLinux"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=xyls999&repo=A2-AgentLinux&hide_border=true&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="A2-AgentLinux" /></a>
-  <a href="https://github.com/xyls999/roscar-first"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=xyls999&repo=roscar-first&hide_border=true&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="roscar-first" /></a>
-  <a href="https://github.com/xyls999/cs-review"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=xyls999&repo=cs-review&hide_border=true&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="cs-review" /></a>
-  <a href="https://github.com/xyls999/java-zhizelab-backend-xyls"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=xyls999&repo=java-zhizelab-backend-xyls&hide_border=true&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8&icon_color=7DCFFF" alt="java-zhizelab-backend-xyls" /></a>
-</p>
-
 ## Quest Map
 
 <p align="center">
   <img width="100%" src="./assets/quest-map.svg" alt="Dark RPG quest map" />
 </p>
 
-## Reference Vault
-
-| Relic | Why it stays in the build |
-| --- | --- |
-| [xyls999/xyls999](https://github.com/xyls999/xyls999) | The special profile repository that renders this README on the GitHub home page. |
-| [xyls999/BEPb](https://github.com/xyls999/BEPb) | Feature DNA: badges, typing SVG, stats, streak, snake, 3D calendar, metrics, counters, maps, star history. |
-| [xyls999/awesome-github-profile-readme](https://github.com/xyls999/awesome-github-profile-readme) | Inspiration library for profile categories, dynamic widgets, game-mode profiles, badges, icons, and automation. |
-| [xyls999/WorkFlowX](https://github.com/xyls999/WorkFlowX) | A useful direction for controllable, traceable, token-aware multi-agent workflows. |
-| [xyls999/HarmonyOS-mcp-server](https://github.com/xyls999/HarmonyOS-mcp-server) | Device-control spellbook for MCP and HarmonyOS experiments. |
-| [xyls999/lineage-skill](https://github.com/xyls999/lineage-skill) | Source-backed skill distillation pattern for turning material into reusable agent abilities. |
-
 ## System Loop
 
-```mermaid
-graph LR
-    A["Intent"] --> B["Readable Plan"]
-    B --> C["Agent / Tool / MCP"]
-    C --> D["Trace"]
-    D --> E["Test Loop"]
-    E --> F["Artifact"]
-    F --> G["Return"]
-    G --> B
-```
-
-## Activity Radar
-
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xyls999&layout=compact&langs_count=10&hide_border=true&bg_color=0D1117&title_color=F2B35D&text_color=F5F2E8" alt="Top languages" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=xyls999&hide_border=true&background=0D1117&ring=F2B35D&fire=F7768E&currStreakLabel=7DCFFF&sideLabels=F5F2E8&currStreakNum=F5F2E8&sideNums=F5F2E8&dates=8B949E" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=xyls999&bg_color=0D1117&color=F5F2E8&line=7DCFFF&point=F7768E&area=true&area_color=214E68&hide_border=true" alt="GitHub activity graph" />
+  <img width="100%" src="./assets/system-loop.svg" alt="Stable SVG system loop" />
 </p>
 
 ## Contribution Arcade
@@ -134,32 +107,26 @@ graph LR
   <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
 </p>
 
-## Achievement Board
-
-<p align="center">
-  <img width="100%" src="./assets/achievement-board.svg" alt="Local RPG achievement board" />
-</p>
-
 ## Metrics Console
+
+<details>
+  <summary>Full generated metrics</summary>
 
 <p align="center">
   <img width="100%" src="./github-metrics.svg" alt="GitHub metrics" />
 </p>
 
-## Star Routes
-
-<p align="center">
-  <img width="100%" src="./assets/star-routes.svg" alt="Dark star route chart" />
-</p>
-
-<details>
-  <summary>External star history mirror</summary>
-
-The external Star History service is kept as an optional mirror because its default SVG is white and can show broken embedded logos on GitHub dark mode.
-
-[Open Star History](https://star-history.com/#xyls999/xyls999&Date)
-
 </details>
+
+## Reference Vault
+
+| Relic | Why it stays in the build |
+| --- | --- |
+| [xyls999/BEPb](https://github.com/xyls999/BEPb) | Feature DNA: badges, typing SVG, stats, snake, 3D calendar, metrics, counters, maps, star history. |
+| [xyls999/awesome-github-profile-readme](https://github.com/xyls999/awesome-github-profile-readme) | Inspiration library for profile categories, dynamic widgets, game-mode profiles, badges, icons, and automation. |
+| [xyls999/WorkFlowX](https://github.com/xyls999/WorkFlowX) | Controllable, traceable, token-aware multi-agent workflow reference. |
+| [xyls999/HarmonyOS-mcp-server](https://github.com/xyls999/HarmonyOS-mcp-server) | Device-control spellbook for MCP and HarmonyOS experiments. |
+| [xyls999/lineage-skill](https://github.com/xyls999/lineage-skill) | Source-backed skill distillation pattern. |
 
 ## Visitor Ledger
 
@@ -168,31 +135,6 @@ The external Star History service is kept as an optional mirror because its defa
   <br />
   <img src="https://komarev.com/ghpvc/?username=xyls999&style=for-the-badge&color=214E68&label=VISITORS" alt="visitor counter" />
 </p>
-
-<details>
-  <summary>Optional achievement slots from the BEPb-style profile</summary>
-
-This build keeps the feature slots, but does not show broken third-party badges without your external account IDs. When you want them visible, add your usernames for TryHackMe, Kaggle, HackerRank, CodersRank, LinkedIn, Twitter/X, email, WhatsApp, or custom community links.
-
-```md
-<!-- TryHackMe -->
-<img src="https://tryhackme-badges.s3.amazonaws.com/YOUR_TRYHACKME_USERNAME.png" alt="TryHackMe" />
-
-<!-- Kaggle -->
-![competition](https://road-to-kaggle-grandmaster.vercel.app/api/badges/YOUR_KAGGLE_USERNAME/competition/light)
-![dataset](https://road-to-kaggle-grandmaster.vercel.app/api/badges/YOUR_KAGGLE_USERNAME/dataset/light)
-![notebook](https://road-to-kaggle-grandmaster.vercel.app/api/badges/YOUR_KAGGLE_USERNAME/notebook/light)
-![discussion](https://road-to-kaggle-grandmaster.vercel.app/api/badges/YOUR_KAGGLE_USERNAME/discussion/light)
-
-<!-- CodersRank -->
-<img src="https://cr-summary-widget.azurewebsites.net/api/api?username=YOUR_CODERSRANK_USERNAME" />
-<img src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=YOUR_CODERSRANK_USERNAME&show-other-skills=true" />
-
-<!-- HackerRank local badge images -->
-![HackerRank badges](./src/badges_hackerrank.png)
-```
-
-</details>
 
 <p align="center">
   <a href="https://github.com/xyls999"><img src="https://img.shields.io/badge/GitHub-xyls999-7DCFFF?style=for-the-badge&logo=github&labelColor=0D1117" alt="GitHub xyls999" /></a>

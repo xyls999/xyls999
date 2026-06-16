@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Research radar</title>
+  <desc id="desc">A radar of recently explored public projects and forked references.</desc>
+  
+    <style>
+      .ui{font-family:Segoe UI,Arial,sans-serif}
+      .mono{font-family:Consolas,Monaco,monospace}
+      .title{fill:#F2B35D;font:800 30px Segoe UI,Arial,sans-serif}
+      .muted{fill:#8B949E;font:14px Consolas,Monaco,monospace}
+      .body{fill:#F5F2E8;font:15px Segoe UI,Arial,sans-serif}
+      .small{fill:#F5F2E8;font:12px Consolas,Monaco,monospace}
+      .cyan{fill:#7DCFFF}.gold{fill:#F2B35D}.ember{fill:#F7768E}
+    </style>
+  
+  <rect width="1200" height="340" rx="16" fill="#0D1117"/>
+  <rect x="22" y="22" width="1156" height="296" rx="14" fill="#101826" stroke="#214E68"/>
+  <text x="54" y="70" class="title">Research Radar</text>
+  <text x="54" y="98" class="muted">projects being studied, forked, or used as reference material</text>
+  <a href="https://github.com/xyls999/LangBot">
+        <g transform="translate(68 124)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">LangBot</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">AGENT · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-16</text>
+        </g>
+      </a><a href="https://github.com/xyls999/WorkFlowX">
+        <g transform="translate(340 124)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">WorkFlowX</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">AGENT · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-08</text>
+        </g>
+      </a><a href="https://github.com/xyls999/HarmonyOS-mcp-server">
+        <g transform="translate(612 124)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">HarmonyOS-mcp-server</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">DEVICE · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-10</text>
+        </g>
+      </a><a href="https://github.com/xyls999/lineage-skill">
+        <g transform="translate(884 124)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">lineage-skill</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">AGENT · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-05</text>
+        </g>
+      </a><a href="https://github.com/xyls999/hhuOS">
+        <g transform="translate(68 220)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">hhuOS</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">SYSTEM · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-15</text>
+        </g>
+      </a><a href="https://github.com/xyls999/qodo-cover">
+        <g transform="translate(340 220)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">qodo-cover</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">QUEST · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-15</text>
+        </g>
+      </a><a href="https://github.com/xyls999/MetaGPT">
+        <g transform="translate(612 220)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">MetaGPT</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">AGENT · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-15</text>
+        </g>
+      </a><a href="https://github.com/xyls999/ChatGLM2-6B">
+        <g transform="translate(884 220)">
+          <rect width="238" height="70" rx="12" fill="#0D1117" stroke="#214E68"/>
+          <text x="16" y="27" class="mono" font-size="15" font-weight="800" fill="#7DCFFF">ChatGLM2-6B</text>
+          <text x="16" y="48" class="small" fill="#F2B35D">QUEST · forked research</text>
+          <text x="16" y="63" class="small" fill="#8B949E">★ 0 · 2026-06-11</text>
+        </g>
+      </a>
+</svg>
