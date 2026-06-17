@@ -27,8 +27,8 @@
             </circle>
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
-            <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">A9-harmony-front-device</text>
-            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">11:41</text>
+            <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">xyls999</text>
+            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">13:47</text>
           </g><g transform="translate(54 166)">
             <circle cx="10" cy="10" r="6" fill="#7DCFFF">
               <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.25s"/>
@@ -36,31 +36,31 @@
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">A9-harmony-front-device</text>
-            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">09:01</text>
+            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">11:41</text>
           </g><g transform="translate(54 200)">
-            <circle cx="10" cy="10" r="6" fill="#AB9DF2">
+            <circle cx="10" cy="10" r="6" fill="#7DCFFF">
               <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.5s"/>
+            </circle>
+            <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
+            <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
+            <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">A9-harmony-front-device</text>
+            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">09:01</text>
+          </g><g transform="translate(54 234)">
+            <circle cx="10" cy="10" r="6" fill="#AB9DF2">
+              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.75s"/>
             </circle>
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#AB9DF2">CREATE branch</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">A9-harmony-front-device</text>
             <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">08:59</text>
-          </g><g transform="translate(54 234)">
+          </g><g transform="translate(54 268)">
             <circle cx="10" cy="10" r="6" fill="#78DCE8">
-              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.75s"/>
+              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="1s"/>
             </circle>
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#78DCE8">FORK</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">grab-GLM-coding-plan</text>
             <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">03:19</text>
-          </g><g transform="translate(54 268)">
-            <circle cx="10" cy="10" r="6" fill="#7DCFFF">
-              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="1s"/>
-            </circle>
-            <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
-            <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
-            <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">xyls999</text>
-            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">02:43</text>
           </g><g transform="translate(54 302)">
             <circle cx="10" cy="10" r="6" fill="#7DCFFF">
               <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="1.25s"/>
@@ -68,7 +68,7 @@
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">xyls999</text>
-            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">02:32</text>
+            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">02:43</text>
           </g>
   <path d="M78 262 H1118" stroke="#214E68" opacity=".5"/>
   <text x="78" y="292" class="mono" font-size="13" fill="#7DCFFF">&gt; waiting for next move _</text>
