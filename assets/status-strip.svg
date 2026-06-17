@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="46" viewBox="0 0 720 46" role="img" aria-labelledby="title desc">
+  <title id="title">Profile status strip</title>
+  <desc id="desc">Stable local badges for repository count, followers, generated assets, and automation.</desc>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7DCFFF"/>
+      <stop offset="0.48" stop-color="#F2B35D"/>
+      <stop offset="1" stop-color="#F7768E"/>
+    </linearGradient>
+    <style>
+      .mono{font-family:Consolas,Monaco,monospace}
+      .label{fill:#8B949E;font:11px Consolas,Monaco,monospace;letter-spacing:.8px}
+      .value{fill:#F5F2E8;font:700 16px Segoe UI,Arial,sans-serif}
+    </style>
+  </defs>
+  <rect width="720" height="46" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="718" height="44" rx="13" fill="#101826" stroke="#214E68"/>
+  <path d="M16 40H704" stroke="url(#glow)" stroke-width="2" opacity=".8"/>
+  <g transform="translate(24 9)">
+    <circle cx="14" cy="14" r="10" fill="#F2B35D" opacity=".18" stroke="#F2B35D"/>
+    <text x="36" y="11" class="label">REPOS</text>
+    <text x="36" y="29" class="value">57</text>
+  </g>
+  <g transform="translate(190 9)">
+    <circle cx="14" cy="14" r="10" fill="#F7768E" opacity=".18" stroke="#F7768E"/>
+    <text x="36" y="11" class="label">FOLLOWERS</text>
+    <text x="36" y="29" class="value">14</text>
+  </g>
+  <g transform="translate(385 9)">
+    <circle cx="14" cy="14" r="10" fill="#7DCFFF" opacity=".18" stroke="#7DCFFF"/>
+    <text x="36" y="11" class="label">PROFILE ASSETS</text>
+    <text x="36" y="29" class="value">AUTO</text>
+  </g>
+  <g transform="translate(590 9)">
+    <circle cx="14" cy="14" r="10" fill="#A9DC76" opacity=".18" stroke="#A9DC76"/>
+    <text x="36" y="11" class="label">MODE</text>
+    <text x="36" y="29" class="value">LIVE</text>
+  </g>
+</svg>
