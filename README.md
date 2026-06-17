@@ -8,6 +8,10 @@
 </p>
 
 <p align="center">
+  <img width="100%" src="./assets/arcade-marquee.svg" alt="Neon arcade marquee" />
+</p>
+
+<p align="center">
   <img width="720" src="./assets/status-strip.svg" alt="Profile status strip" />
   <br />
   <img src="https://komarev.com/ghpvc/?username=xyls999&style=for-the-badge&color=214E68&label=PROFILE+VIEWS" alt="profile views" />
@@ -45,6 +49,18 @@
 
 <p align="center">
   <img width="100%" src="./assets/boss-terminal.svg" alt="Boss terminal showing current build quests" />
+</p>
+
+## Portal Gate
+
+<p align="center">
+  <img width="100%" src="./assets/portal-gate.svg" alt="Animated science-fantasy portal gate" />
+</p>
+
+## Party Roster
+
+<p align="center">
+  <img width="100%" src="./assets/party-roster.svg" alt="Animated RPG party roster" />
 </p>
 
 ## Achievement Board
@@ -97,6 +113,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img width="100%" src="./assets/skill-tree.svg" alt="Animated RPG skill tree" />
+</p>
+
 | Slot | Loadout |
 | --- | --- |
 | Languages / IDE | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111) ![Vue](https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
@@ -108,6 +128,12 @@
 
 <p align="center">
   <img width="100%" src="./assets/quest-map.svg" alt="Dark RPG quest map" />
+</p>
+
+## Dice Oracle
+
+<p align="center">
+  <img width="100%" src="./assets/dice-oracle.svg" alt="Animated tabletop dice oracle" />
 </p>
 
 ## System Loop

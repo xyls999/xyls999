@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Party roster</title>
+  <desc id="desc">A pixel RPG party roster describing xyls999 build roles.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <style>
+      .mono{font-family:Consolas,Monaco,monospace}
+      .ui{font-family:Segoe UI,Arial,sans-serif}
+      .bob{animation:bob 3.4s ease-in-out infinite}
+      .blink{animation:blink 1.8s steps(2,end) infinite}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+      @keyframes blink{50%{opacity:.25}}
+    </style>
+  </defs>
+  <rect width="1200" height="390" rx="18" fill="#0D1117"/>
+  <rect x="22" y="22" width="1156" height="346" rx="16" fill="#101826" stroke="#214E68"/>
+  <text x="54" y="70" class="ui" font-size="30" font-weight="800" fill="#F2B35D">Party Roster</text>
+  <text x="54" y="98" class="mono" font-size="14" fill="#8B949E">four roles, one save file, many quests</text>
+  <g transform="translate(54 126)">
+    <g>
+      <rect width="252" height="196" rx="14" fill="url(#card)" stroke="#F7768E"/>
+      <g class="bob" transform="translate(91 42)">
+        <rect x="24" y="0" width="36" height="36" rx="7" fill="#F7768E"/>
+        <rect x="14" y="34" width="56" height="54" rx="10" fill="#214E68"/>
+        <rect x="4" y="50" width="18" height="46" rx="7" fill="#7DCFFF"/>
+        <rect x="62" y="50" width="18" height="46" rx="7" fill="#7DCFFF"/>
+        <rect x="23" y="86" width="16" height="38" rx="6" fill="#F2B35D"/>
+        <rect x="45" y="86" width="16" height="38" rx="6" fill="#F2B35D"/>
+        <circle cx="35" cy="15" r="3" fill="#0D1117"/><circle cx="49" cy="15" r="3" fill="#0D1117"/>
+      </g>
+      <text x="22" y="142" class="mono" font-size="17" font-weight="800" fill="#F5F2E8">Agent Summoner</text>
+      <text x="22" y="166" class="mono" font-size="12" fill="#8B949E">workflow / tool calls / memory</text>
+    </g>
+    <g transform="translate(282 0)">
+      <rect width="252" height="196" rx="14" fill="url(#card)" stroke="#7DCFFF"/>
+      <g class="bob" transform="translate(91 42)">
+        <rect x="18" y="0" width="48" height="32" rx="6" fill="#7DCFFF"/>
+        <rect x="10" y="34" width="64" height="54" rx="8" fill="#351C2A"/>
+        <path d="M42 18 84 48 42 78 0 48Z" fill="none" stroke="#F2B35D" stroke-width="5"/>
+        <circle class="blink" cx="42" cy="48" r="7" fill="#F2B35D"/>
+      </g>
+      <text x="22" y="142" class="mono" font-size="17" font-weight="800" fill="#F5F2E8">MCP Artificer</text>
+      <text x="22" y="166" class="mono" font-size="12" fill="#8B949E">protocols / devices / control</text>
+    </g>
+    <g transform="translate(564 0)">
+      <rect width="252" height="196" rx="14" fill="url(#card)" stroke="#F2B35D"/>
+      <g class="bob" transform="translate(91 42)">
+        <path d="M42 0 76 22 66 84 42 112 18 84 8 22Z" fill="#F2B35D"/>
+        <path d="M42 12 62 29 56 74 42 92 28 74 22 29Z" fill="#0D1117"/>
+        <path d="M42 26V83" stroke="#7DCFFF" stroke-width="5"/>
+      </g>
+      <text x="22" y="142" class="mono" font-size="17" font-weight="800" fill="#F5F2E8">OS Knight</text>
+      <text x="22" y="166" class="mono" font-size="12" fill="#8B949E">Linux / kernels / systems</text>
+    </g>
+    <g transform="translate(846 0)">
+      <rect width="252" height="196" rx="14" fill="url(#card)" stroke="#A9DC76"/>
+      <g class="bob" transform="translate(91 42)">
+        <rect x="8" y="30" width="68" height="46" rx="12" fill="#A9DC76"/>
+        <circle cx="22" cy="82" r="12" fill="#0D1117" stroke="#7DCFFF" stroke-width="4"/>
+        <circle cx="62" cy="82" r="12" fill="#0D1117" stroke="#7DCFFF" stroke-width="4"/>
+        <path d="M28 30 42 4 56 30" fill="none" stroke="#F7768E" stroke-width="6"/>
+        <circle class="blink" cx="42" cy="50" r="5" fill="#0D1117"/>
+      </g>
+      <text x="22" y="142" class="mono" font-size="17" font-weight="800" fill="#F5F2E8">Rover Tactician</text>
+      <text x="22" y="166" class="mono" font-size="12" fill="#8B949E">ROS / robotics / planning</text>
+    </g>
+  </g>
+  <text x="54" y="352" class="mono" font-size="13" fill="#7DCFFF">&gt; party effect: messy ideas become playable systems _</text>
+</svg>
