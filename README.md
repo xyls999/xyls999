@@ -47,16 +47,40 @@
   <img width="100%" src="./assets/boss-terminal.svg" alt="Boss terminal showing current build quests" />
 </p>
 
+## Achievement Board
+
+<p align="center">
+  <img width="100%" src="./assets/achievement-board.svg" alt="RPG achievement board" />
+</p>
+
 ## Activity Dashboard
 
 <p align="center">
   <img width="100%" src="./assets/activity-dashboard.svg" alt="Self-generated GitHub activity dashboard" />
 </p>
 
+## Signal Feed
+
+<p align="center">
+  <img width="100%" src="./assets/signal-feed.svg" alt="Live public activity signal feed" />
+</p>
+
 ## Project Compendium
 
 <p align="center">
   <img width="100%" src="./assets/project-compendium.svg" alt="Clickable RPG-style project compendium" />
+</p>
+
+## Project Constellation
+
+<p align="center">
+  <img width="100%" src="./assets/constellation.svg" alt="Connected project constellation" />
+</p>
+
+## Star Routes
+
+<p align="center">
+  <img width="100%" src="./assets/star-routes.svg" alt="Dark-mode star route chart" />
 </p>
 
 ## Research Radar

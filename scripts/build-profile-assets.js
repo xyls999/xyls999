@@ -58,6 +58,55 @@ function frame(width, height) {
   <rect x="22" y="22" width="${width - 44}" height="${height - 44}" rx="14" fill="#101826" stroke="#214E68"/>`;
 }
 
+function writeStatusStrip({ user, repos }) {
+  const owned = repos.filter((repo) => !repo.fork);
+  const stars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+  const updated = repos
+    .slice()
+    .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))[0]?.updated_at?.slice(0, 10);
+  const slots = [
+    ["REPOS", user.public_repos, "#7DCFFF"],
+    ["FOLLOWERS", user.followers, "#F7768E"],
+    ["ORIGINAL", owned.length, "#F2B35D"],
+    ["STARS", stars, "#A9DC76"],
+  ];
+  const strip = slots
+    .map(
+      ([label, value, color], index) => `
+      <g transform="translate(${24 + index * 170} 9)">
+        <circle cx="14" cy="14" r="10" fill="${color}" opacity=".18" stroke="${color}"/>
+        <text x="36" y="11" class="label">${esc(label)}</text>
+        <text x="36" y="29" class="value">${esc(value)}</text>
+      </g>`
+    )
+    .join("");
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="720" height="46" viewBox="0 0 720 46" role="img" aria-labelledby="title desc">
+  <title id="title">Profile status strip</title>
+  <desc id="desc">Live repository counters and build state generated from GitHub public data.</desc>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7DCFFF"/>
+      <stop offset="0.48" stop-color="#F2B35D"/>
+      <stop offset="1" stop-color="#F7768E"/>
+    </linearGradient>
+    <style>
+      .mono{font-family:Consolas,Monaco,monospace}
+      .label{fill:#8B949E;font:11px Consolas,Monaco,monospace;letter-spacing:.8px}
+      .value{fill:#F5F2E8;font:700 16px Segoe UI,Arial,sans-serif}
+      .stamp{fill:#7DCFFF;font:11px Consolas,Monaco,monospace}
+    </style>
+  </defs>
+  <rect width="720" height="46" rx="14" fill="#0D1117"/>
+  <rect x="1" y="1" width="718" height="44" rx="13" fill="#101826" stroke="#214E68"/>
+  <path d="M16 40H704" stroke="url(#glow)" stroke-width="2" opacity=".8">
+    <animate attributeName="opacity" values=".35;.85;.35" dur="4.5s" repeatCount="indefinite"/>
+  </path>
+  ${strip}
+  <text x="610" y="30" text-anchor="end" class="stamp">LIVE ${esc(updated || "SYNC")}</text>
+</svg>`;
+  fs.writeFileSync(path.join(ASSET_DIR, "status-strip.svg"), svg);
+}
+
 function languageCounts(repos) {
   const counts = new Map();
   for (const repo of repos) {
@@ -114,6 +163,41 @@ function pickRadar(repos, events) {
   }
   const byName = new Map(repos.map((repo) => [repo.name, repo]));
   return [...names].map((name) => byName.get(name)).filter(Boolean).slice(0, 8);
+}
+
+function pickSignalEvents(events) {
+  const wanted = new Set([
+    "PushEvent",
+    "CreateEvent",
+    "PullRequestEvent",
+    "IssuesEvent",
+    "ReleaseEvent",
+    "ForkEvent",
+    "PublicEvent",
+  ]);
+  return events
+    .filter((event) => wanted.has(event.type))
+    .slice(0, 6);
+}
+
+function shortEventLabel(event) {
+  if (event.type === "PushEvent") return "PUSH";
+  if (event.type === "CreateEvent") return `CREATE ${event.payload?.ref_type || ""}`.trim();
+  if (event.type === "PullRequestEvent") return `PR ${event.payload?.action || ""}`.trim();
+  if (event.type === "IssuesEvent") return `ISSUE ${event.payload?.action || ""}`.trim();
+  if (event.type === "ReleaseEvent") return "RELEASE";
+  if (event.type === "ForkEvent") return "FORK";
+  if (event.type === "PublicEvent") return "PUBLIC";
+  return event.type.replace(/([A-Z])/g, " $1").trim().toUpperCase();
+}
+
+function eventHue(event) {
+  if (event.type === "PushEvent") return "#7DCFFF";
+  if (event.type === "PullRequestEvent") return "#F7768E";
+  if (event.type === "ReleaseEvent") return "#F2B35D";
+  if (event.type === "IssuesEvent") return "#A9DC76";
+  if (event.type === "CreateEvent") return "#AB9DF2";
+  return "#78DCE8";
 }
 
 function writeActivityDashboard({ user, repos }) {
@@ -198,6 +282,93 @@ function writeProjectCompendium({ repos }) {
   fs.writeFileSync(path.join(ASSET_DIR, "project-compendium.svg"), svg);
 }
 
+function writeSignalFeed({ events }) {
+  const selected = pickSignalEvents(events);
+  const rows = selected.length
+    ? selected
+        .map((event, i) => {
+          const repo = event.repo?.name?.split("/").pop() || "unknown";
+          const time = new Date(event.created_at).toISOString().slice(11, 16);
+          const label = shortEventLabel(event);
+          const color = eventHue(event);
+          const y = 132 + i * 34;
+          return `<g transform="translate(54 ${y})">
+            <circle cx="10" cy="10" r="6" fill="${color}">
+              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="${i * 0.25}s"/>
+            </circle>
+            <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
+            <text x="44" y="16" class="mono" font-size="12" fill="${color}">${esc(label)}</text>
+            <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">${esc(truncate(repo, 42))}</text>
+            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">${esc(time)}</text>
+          </g>`;
+        })
+        .join("")
+    : `<text x="54" y="150" class="body">No recent public events available yet.</text>`;
+
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Signal feed</title>
+  <desc id="desc">A live public event feed generated from GitHub activity.</desc>
+  ${style()}
+  ${frame(1200, 360)}
+  <text x="54" y="70" class="title">Signal Feed</text>
+  <text x="54" y="98" class="muted">fresh public activity :: push, issue, release, fork, and pull-request pulses</text>
+  <rect x="54" y="112" width="1094" height="182" rx="14" fill="#0D1117" stroke="#214E68"/>
+  <rect x="70" y="126" width="1062" height="2" fill="#7DCFFF" opacity=".16">
+    <animate attributeName="y" values="126;278;126" dur="5.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".1;.55;.1" dur="5.8s" repeatCount="indefinite"/>
+  </rect>
+  ${rows}
+  <path d="M78 262 H1118" stroke="#214E68" opacity=".5"/>
+  <text x="78" y="292" class="mono" font-size="13" fill="#7DCFFF">&gt; waiting for next move _</text>
+</svg>`;
+  fs.writeFileSync(path.join(ASSET_DIR, "signal-feed.svg"), svg);
+}
+
+function writeConstellation({ repos }) {
+  const projects = pickProjects(repos);
+  const points = [
+    { x: 170, y: 110, repo: projects[0], r: 16 },
+    { x: 360, y: 52, repo: projects[1], r: 15 },
+    { x: 560, y: 112, repo: projects[2], r: 18 },
+    { x: 740, y: 62, repo: projects[3], r: 15 },
+    { x: 920, y: 138, repo: projects[4], r: 16 },
+    { x: 600, y: 220, repo: projects[5], r: 17 },
+  ].filter((p) => p.repo);
+  const center = { x: 600, y: 160 };
+  const links = points
+    .map((p) => `<path d="M${center.x} ${center.y} L${p.x} ${p.y}" stroke="#214E68" stroke-width="2" opacity=".75"/>`)
+    .join("");
+  const nodes = points
+    .map((p, i) => {
+      const color = ["#7DCFFF", "#F2B35D", "#F7768E", "#A9DC76", "#AB9DF2", "#78DCE8"][i];
+      return `<g transform="translate(${p.x} ${p.y})">
+        <circle r="${p.r + 12}" fill="${color}" opacity=".12">
+          <animate attributeName="r" values="${p.r + 10};${p.r + 16};${p.r + 10}" dur="4s" repeatCount="indefinite" begin="${i * 0.3}s"/>
+        </circle>
+        <circle r="${p.r}" fill="${color}" opacity=".92"/>
+        <text x="0" y="34" text-anchor="middle" class="mono" font-size="12" fill="#F5F2E8">${esc(truncate(p.repo.name, 16))}</text>
+        <text x="0" y="50" text-anchor="middle" class="mono" font-size="11" fill="#8B949E">★ ${p.repo.stargazers_count}</text>
+      </g>`;
+    })
+    .join("");
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Project constellation</title>
+  <desc id="desc">A connected constellation of current core repositories.</desc>
+  ${style()}
+  ${frame(1200, 320)}
+  <text x="54" y="70" class="title">Project Constellation</text>
+  <text x="54" y="98" class="muted">your core repos as connected stars in the same build graph</text>
+  <g opacity=".95">
+    ${links}
+    <circle cx="${center.x}" cy="${center.y}" r="30" fill="#F2B35D" opacity=".18"/>
+    <circle cx="${center.x}" cy="${center.y}" r="18" fill="#F2B35D"/>
+    <text x="${center.x}" y="${center.y + 48}" text-anchor="middle" class="mono" font-size="13" fill="#F5F2E8">DOVAKLIN</text>
+    ${nodes}
+  </g>
+</svg>`;
+  fs.writeFileSync(path.join(ASSET_DIR, "constellation.svg"), svg);
+}
+
 function writeResearchRadar({ repos, events }) {
   const radar = pickRadar(repos, events);
   const rows = radar
@@ -253,8 +424,11 @@ function writeSystemLoop() {
 async function main() {
   fs.mkdirSync(ASSET_DIR, { recursive: true });
   const data = await loadData();
+  writeStatusStrip(data);
   writeActivityDashboard(data);
+  writeSignalFeed(data);
   writeProjectCompendium(data);
+  writeConstellation(data);
   writeResearchRadar(data);
   writeSystemLoop();
 }

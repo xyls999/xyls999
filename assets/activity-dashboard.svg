@@ -20,12 +20,12 @@
     <g transform="translate(0 0)">
     <rect width="176" height="68" rx="12" fill="#0D1117" stroke="#214E68"/>
     <text x="18" y="25" class="small" fill="#8B949E">PUBLIC REPOS</text>
-    <text x="18" y="52" class="mono" font-size="24" font-weight="800" fill="#7DCFFF">58</text>
+    <text x="18" y="52" class="mono" font-size="24" font-weight="800" fill="#7DCFFF">59</text>
   </g>
     <g transform="translate(210 0)">
     <rect width="176" height="68" rx="12" fill="#0D1117" stroke="#214E68"/>
     <text x="18" y="25" class="small" fill="#8B949E">ORIGINAL</text>
-    <text x="18" y="52" class="mono" font-size="24" font-weight="800" fill="#F2B35D">22</text>
+    <text x="18" y="52" class="mono" font-size="24" font-weight="800" fill="#F2B35D">23</text>
   </g>
     <g transform="translate(420 0)">
     <rect width="176" height="68" rx="12" fill="#0D1117" stroke="#214E68"/>
@@ -49,6 +49,6 @@
   </g>
   </g>
   <text x="760" y="94" class="muted">language radar</text>
-  <text x="760" y="127" class="small">Docs</text><rect x="860" y="112" width="210" height="16" rx="8" fill="#7DCFFF" opacity=".86"/><text x="1084" y="125" class="small">41</text><text x="760" y="155" class="small">Python</text><rect x="860" y="140" width="36" height="16" rx="8" fill="#F2B35D" opacity=".86"/><text x="910" y="153" class="small">6</text><text x="760" y="183" class="small">JavaScript</text><rect x="860" y="168" width="36" height="16" rx="8" fill="#F7768E" opacity=".86"/><text x="910" y="181" class="small">3</text><text x="760" y="211" class="small">Java</text><rect x="860" y="196" width="36" height="16" rx="8" fill="#78DCE8" opacity=".86"/><text x="910" y="209" class="small">3</text><text x="760" y="239" class="small">Vue</text><rect x="860" y="224" width="36" height="16" rx="8" fill="#A9DC76" opacity=".86"/><text x="910" y="237" class="small">2</text><text x="760" y="267" class="small">HTML</text><rect x="860" y="252" width="36" height="16" rx="8" fill="#AB9DF2" opacity=".86"/><text x="910" y="265" class="small">1</text>
+  <text x="760" y="127" class="small">Docs</text><rect x="860" y="112" width="210" height="16" rx="8" fill="#7DCFFF" opacity=".86"/><text x="1084" y="125" class="small">41</text><text x="760" y="155" class="small">Python</text><rect x="860" y="140" width="36" height="16" rx="8" fill="#F2B35D" opacity=".86"/><text x="910" y="153" class="small">6</text><text x="760" y="183" class="small">JavaScript</text><rect x="860" y="168" width="36" height="16" rx="8" fill="#F7768E" opacity=".86"/><text x="910" y="181" class="small">3</text><text x="760" y="211" class="small">Java</text><rect x="860" y="196" width="36" height="16" rx="8" fill="#78DCE8" opacity=".86"/><text x="910" y="209" class="small">3</text><text x="760" y="239" class="small">Vue</text><rect x="860" y="224" width="36" height="16" rx="8" fill="#A9DC76" opacity=".86"/><text x="910" y="237" class="small">2</text><text x="760" y="267" class="small">TypeScript</text><rect x="860" y="252" width="36" height="16" rx="8" fill="#AB9DF2" opacity=".86"/><text x="910" y="265" class="small">1</text>
   <path d="M692 82V274" stroke="#214E68"/>
 </svg>

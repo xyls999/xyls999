@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/activity-dashboard.svg assets/project-compendium.svg assets/research-radar.svg assets/system-loop.svg
+          git add assets/status-strip.svg assets/activity-dashboard.svg assets/signal-feed.svg assets/project-compendium.svg assets/constellation.svg assets/research-radar.svg assets/system-loop.svg
           if git diff --cached --quiet; then
             echo "No profile asset changes."
             exit 0
