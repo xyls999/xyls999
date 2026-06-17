@@ -9,9 +9,9 @@
 
 <p align="center">
   <a href="https://github.com/xyls999?tab=repositories"><img src="https://img.shields.io/badge/repos-57-F2B35D?style=for-the-badge&labelColor=0D1117" alt="public repositories" /></a>
-  <a href="https://github.com/xyls999"><img src="https://img.shields.io/github/followers/xyls999?style=for-the-badge&logo=github&labelColor=0D1117&color=F7768E" alt="GitHub followers" /></a>
+  <a href="https://github.com/xyls999"><img src="https://img.shields.io/badge/followers-14-F7768E?style=for-the-badge&logo=github&labelColor=0D1117" alt="GitHub followers" /></a>
   <img src="https://komarev.com/ghpvc/?username=xyls999&style=for-the-badge&color=214E68&label=PROFILE+VIEWS" alt="profile views" />
-  <a href="https://github.com/xyls999/xyls999/actions"><img src="https://img.shields.io/github/actions/workflow/status/xyls999/xyls999/profile-assets.yml?branch=main&style=for-the-badge&label=profile%20assets&labelColor=0D1117&color=7DCFFF" alt="profile assets workflow" /></a>
+  <a href="https://github.com/xyls999/xyls999/actions"><img src="https://img.shields.io/badge/assets-auto-7DCFFF?style=for-the-badge&logo=githubactions&labelColor=0D1117" alt="profile assets workflow" /></a>
 </p>
 
 <p align="center">
