@@ -202,16 +202,26 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="42%" valign="top">
+    <td width="68%" valign="top">
       <h3>Current Goal</h3>
       <p>
         Make selected repositories easier to read, reproduce, and evaluate:
         clearer README files, better setup notes, smaller verified examples, and
         more honest records of what works.
       </p>
+      <p>
+        GitHub profile READMEs cannot run custom JavaScript for mouse-driven
+        page effects, so the motion here is implemented through GitHub-safe
+        animated media and structured layout instead of scripts.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/profile-readable-2f6f8f?style=flat-square" alt="Readable profile badge" />
+        <img src="https://img.shields.io/badge/media-curated-7a6f52?style=flat-square" alt="Curated media badge" />
+        <img src="https://img.shields.io/badge/layout-no_empty_gaps-455a64?style=flat-square" alt="No empty gaps badge" />
+      </p>
     </td>
-    <td width="58%" valign="top">
-      <img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Full ambient scene motion" />
+    <td width="32%" valign="top">
+      <img width="100%" src="./media/full-motion/scene-22-panel.webp" alt="Controlled ambient motion panel" />
     </td>
   </tr>
 </table>
