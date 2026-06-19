@@ -10,9 +10,24 @@ Student in Big Data Management and Application. I use this profile to keep cours
 
 </div>
 
-<p align="center">
-  <img width="100%" src="./media/profile-visual.jpg" alt="Low-key illustrated visual note" />
-</p>
+<table>
+  <tr>
+    <td colspan="3">
+      <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <video src="./media/video/magic-circle-moon.mp4" muted autoplay loop playsinline width="100%"></video>
+    </td>
+    <td width="34%">
+      <video src="./media/video/disco-elysium-four.mp4" muted autoplay loop playsinline width="100%"></video>
+    </td>
+    <td width="33%">
+      <video src="./media/video/scene-22.mp4" muted autoplay loop playsinline width="100%"></video>
+    </td>
+  </tr>
+</table>
 
 ## Contents
 
@@ -34,8 +49,6 @@ Student in Big Data Management and Application. I use this profile to keep cours
 | Status | Student, organizing course labs, project code, and engineering notes |
 
 I prefer small projects that can run, be reviewed, and be improved later. This profile follows the same idea: less decoration, more useful context.
-
-The visual note above is only a small atmosphere layer: a reminder to keep technical work readable, patient, and connected to a wider map.
 
 ## Current Focus
 
