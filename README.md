@@ -3,12 +3,12 @@
 # xyls999 / Dovaklin
 
 Student in **Big Data Management and Application**  
-Building a practical record of data workflows, backend structure, visualization, and automation.
+Building across agent workflows, backend systems, frontend interfaces, Linux, networks, security, deep learning, and reinforcement learning.
 
 [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
 [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
 [![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
-[![major](https://img.shields.io/badge/major-big_data_management-2f6f8f?style=flat-square)](#study-log)
+[![agent](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#study-log)
 
 </div>
 
@@ -17,26 +17,27 @@ Building a practical record of data workflows, backend structure, visualization,
     <td width="43%" valign="top">
       <h3>Profile</h3>
       <p>
-        I use GitHub as a working shelf: course labs, project experiments,
-        reading notes, and small tools that should remain understandable after
-        the first commit.
+        I use GitHub as a working shelf for agent experiments, full-stack
+        practice, Linux notes, network tooling, model learning, and projects
+        that connect software with devices.
       </p>
       <p>
-        The profile keeps a quiet visual layer, but the main signal is still the
-        work: data management practice, clearer repositories, and steady review.
+        My major gives me the data-management background, but the main track is
+        broader: agents, backend, frontend, systems, security, and learning
+        algorithms.
       </p>
       <br />
       <table>
-        <tr><td><b>Major</b></td><td>Big Data Management and Application</td></tr>
-        <tr><td><b>Focus</b></td><td>Data systems, backend, visualization</td></tr>
-        <tr><td><b>Method</b></td><td>Build, document, review, improve</td></tr>
-        <tr><td><b>Goal</b></td><td>Useful projects with readable records</td></tr>
+        <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
+        <tr><td><b>Main line</b></td><td>Agent engineering and full-stack systems</td></tr>
+        <tr><td><b>Systems</b></td><td>Linux, operating systems, networks, security</td></tr>
+        <tr><td><b>AI track</b></td><td>Deep learning, reinforcement learning, robotics</td></tr>
       </table>
     </td>
     <td width="57%" valign="top">
       <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
       <br />
-      <sub>A map-like opening image for a profile that is mostly about paths, records, and checkpoints.</sub>
+      <sub>A profile map for projects that move between software, systems, and learning algorithms.</sub>
     </td>
   </tr>
 </table>
@@ -49,14 +50,15 @@ Building a practical record of data workflows, backend structure, visualization,
     <td width="68%" valign="top">
       <h2>Study Log</h2>
       <p>
-        Current work is organized around a simple loop: understand the data,
-        build the service, show the result, then write down what changed.
+        Current work is organized around a practical loop: read a system,
+        reproduce the core idea, build a small interface or service, then write
+        down what actually changed.
       </p>
       <table>
-        <tr><td><b>Data workflow</b></td><td>Collection, cleaning, storage, analysis, and visualization.</td></tr>
-        <tr><td><b>Backend</b></td><td>Java / Spring structure, APIs, database access, and deployment notes.</td></tr>
-        <tr><td><b>Frontend</b></td><td>Vue pages that make project results easier to read and check.</td></tr>
-        <tr><td><b>Automation</b></td><td>Scripts and GitHub Actions for repeated updates and maintenance.</td></tr>
+        <tr><td><b>Agent</b></td><td>MCP, tool calling, workflow control, multi-agent references.</td></tr>
+        <tr><td><b>Full stack</b></td><td>Java / Spring backend, Vue frontend, APIs, data access, deployment notes.</td></tr>
+        <tr><td><b>Systems</b></td><td>Linux practice, OS reading, network configuration, security labs.</td></tr>
+        <tr><td><b>Learning</b></td><td>Deep learning inference, reinforcement learning, robotics, model deployment.</td></tr>
       </table>
     </td>
   </tr>
@@ -67,14 +69,14 @@ Building a practical record of data workflows, backend structure, visualization,
     <td width="62%" valign="top">
       <h2>Current Direction</h2>
       <p>
-        I am shaping a student portfolio that can explain both process and
-        output. The next step is to make more repositories easy to scan: purpose,
-        setup, screenshots or examples, and review notes.
+        I am shaping a student portfolio around engineering range rather than a
+        single label. The next step is to make each important repository easier
+        to scan: purpose, setup, core idea, and what I learned from it.
       </p>
       <table>
-        <tr><td><b>Now</b></td><td>Backend APIs and data workflow notes.</td></tr>
-        <tr><td><b>Next</b></td><td>Visualization pages and deployment records.</td></tr>
-        <tr><td><b>Later</b></td><td>More complete documentation for selected projects.</td></tr>
+        <tr><td><b>Now</b></td><td>Agent workflows, Java backend, Linux experiments.</td></tr>
+        <tr><td><b>Next</b></td><td>Cleaner frontend demos, network notes, security practice records.</td></tr>
+        <tr><td><b>Later</b></td><td>Deep learning and reinforcement learning projects with better reproduction logs.</td></tr>
       </table>
     </td>
     <td width="38%" valign="top">
@@ -91,14 +93,14 @@ Building a practical record of data workflows, backend structure, visualization,
 
 | Repository | Area | What it is for |
 | --- | --- | --- |
-| [WorkFlowX](https://github.com/xyls999/WorkFlowX) | Workflow | Task flow, tool usage, and process recording. |
-| [HarmonyOS-mcp-server](https://github.com/xyls999/HarmonyOS-mcp-server) | Device control | HarmonyOS and MCP-related experiments. |
-| [A2-AgentLinux](https://github.com/xyls999/A2-AgentLinux) | Systems | Linux practice and agent-side experiments. |
+| [WorkFlowX](https://github.com/xyls999/WorkFlowX) | Agent workflow | Multi-agent workflow, controllability, traceability, and token efficiency. |
+| [A2-AgentLinux](https://github.com/xyls999/A2-AgentLinux) | Agent + Linux | Agent-side experiments around Linux environments and system operations. |
+| [HarmonyOS-mcp-server](https://github.com/xyls999/HarmonyOS-mcp-server) | MCP + device | MCP server experiments for manipulating HarmonyOS NEXT devices. |
+| [A9-harmony-front-device](https://github.com/xyls999/A9-harmony-front-device) | Device control | Front-device experiments around HarmonyOS and automation. |
 | [java-zhizelab-backend-xyls](https://github.com/xyls999/java-zhizelab-backend-xyls) | Backend | Java backend API and service structure practice. |
-| [web-zhizelabwithbackend-xyls](https://github.com/xyls999/web-zhizelabwithbackend-xyls) | Web | Frontend and backend integration practice. |
-| [app-wechat-page](https://github.com/xyls999/app-wechat-page) | Page | Layout and interaction practice. |
-| [cs-review](https://github.com/xyls999/cs-review) | Notes | Course review and computer science basics. |
-| [lineage-skill](https://github.com/xyls999/lineage-skill) | Knowledge | Reusable knowledge organization experiment. |
+| [web-zhizelabwithbackend-xyls](https://github.com/xyls999/web-zhizelabwithbackend-xyls) | Frontend | Frontend and backend integration practice. |
+| [roscar-first](https://github.com/xyls999/roscar-first) | Robotics | ROS car project practice and device-side integration. |
+| [cs-review](https://github.com/xyls999/cs-review) | CS basics | Operating systems, networks, Java, and computer science review notes. |
 
 <table>
   <tr>
@@ -111,7 +113,7 @@ Building a practical record of data workflows, backend structure, visualization,
   </tr>
   <tr>
     <td><sub>Longer study rhythm, kept as full motion.</sub></td>
-    <td><sub>Original static visual, not cropped.</sub></td>
+    <td><sub>Original static visual, kept without cropping.</sub></td>
   </tr>
 </table>
 
@@ -130,17 +132,30 @@ Building a practical record of data workflows, backend structure, visualization,
       <img src="https://img.shields.io/badge/Linux-2f6f8f?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
     </td>
     <td width="50%" valign="top">
-      <b>Data and tooling</b>
+      <b>Systems and AI</b>
       <br /><br />
       <img src="https://img.shields.io/badge/MySQL-2f6f8f?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
       <img src="https://img.shields.io/badge/SQLite-2f6f8f?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
       <img src="https://img.shields.io/badge/Jupyter-2f6f8f?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
       <img src="https://img.shields.io/badge/Docker-2f6f8f?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/MCP-2f6f8f?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
+      <img src="https://img.shields.io/badge/PyTorch-2f6f8f?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
       <img src="https://img.shields.io/badge/GitHub_Actions-2f6f8f?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-      <img src="https://img.shields.io/badge/Markdown-2f6f8f?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
+      <img src="https://img.shields.io/badge/Networking-2f6f8f?style=flat-square&logo=cloudflare&logoColor=white" alt="Networking" />
     </td>
   </tr>
 </table>
+
+## Technical Tracks
+
+| Track | What I am building toward |
+| --- | --- |
+| Agent engineering | Tool calling, MCP servers, workflow control, agent-side automation, and multi-agent development references. |
+| Full-stack development | Java / Spring services, Vue interfaces, data access, API design, and deployment-friendly project structure. |
+| Linux and operating systems | Command-line practice, OS reading, environment setup, process notes, and system-level debugging habits. |
+| Networks and security | Proxy rules, network configuration, basic security labs, and safer automation records. |
+| Deep learning | PyTorch practice, model inference, LLM serving references, detection/deployment pipelines, and reproducible notes. |
+| Reinforcement learning and robotics | MAPPO, Isaac Lab, LeRobot, ROS car practice, and device-facing experiments. |
 
 <table>
   <tr>
