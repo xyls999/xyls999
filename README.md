@@ -3,50 +3,51 @@
 # xyls999 / Dovaklin
 
 Student in **Big Data Management and Application**  
-Mainly learning software engineering: agents, backend, frontend, Linux, networks, security, deep learning, and reinforcement learning.
+Software-oriented learner working across agents, full-stack systems, Linux, networks, security, deep learning, and reinforcement learning.
 
 [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
 [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
 [![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
-[![agent](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#study-log)
+[![agent](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#technical-tracks)
 
 </div>
 
 <table>
   <tr>
-    <td width="48%" valign="top">
+    <td width="46%" valign="top">
       <h2>Welcome</h2>
       <p>
-        欢迎来到我的专业。欢迎世界各地志同道合的朋友交流技术、沟通方法。
-        也祝愿诸位前行者武运昌隆。
+        This profile is an open notebook for software practice, technical
+        experiments, and long-term learning. I am glad to meet people from
+        different places who care about engineering, methods, and the discipline
+        behind useful systems.
       </p>
       <p>
-        Welcome to my field. I mainly study software-oriented engineering, and I
-        am also interested in almost every corner of computer science and its
-        related areas.
-      </p>
-      <p>
-        I hope to use GitHub to record outcomes, share knowledge, keep technical
-        notes traceable, and meet people who care about how things are built.
+        May every serious builder keep moving forward with courage and good
+        judgment.
       </p>
     </td>
-    <td width="52%" valign="top">
-      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full July ambient motion" />
+    <td width="54%" valign="top">
+      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full ambient motion" />
     </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="34%" valign="top">
+    <td width="31%" valign="top">
       <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
     </td>
-    <td width="42%" valign="top">
+    <td width="43%" valign="top">
       <h2>Profile</h2>
       <p>
-        I use GitHub as a working shelf for agent experiments, full-stack
-        practice, Linux notes, network tooling, security labs, model learning,
-        and projects that connect software with devices.
+        I mainly study software engineering, while staying curious about the
+        wider computer-science field and the adjacent areas that connect code to
+        real environments.
+      </p>
+      <p>
+        GitHub is where I keep results, references, reproducible notes, and
+        project records that can be revisited after the first round of learning.
       </p>
       <table>
         <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
@@ -55,53 +56,25 @@ Mainly learning software engineering: agents, backend, frontend, Linux, networks
         <tr><td><b>AI track</b></td><td>Deep learning, reinforcement learning, robotics</td></tr>
       </table>
     </td>
-    <td width="24%" valign="top">
+    <td width="26%" valign="top">
       <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
-      <br />
-      <img width="120" src="./media/full-motion/frieren-preview-original.gif" alt="Small original animated preview" />
     </td>
   </tr>
 </table>
 
-## Study Log
-
-<table>
-  <tr>
-    <td width="24%" valign="top">
-      <img width="100%" src="./media/full-motion/magic-circle-full.webp" alt="Full magic circle motion" />
-    </td>
-    <td width="76%" valign="top">
-      <p>
-        Current work is organized around a practical loop: read a system,
-        reproduce the core idea, build a small interface or service, then write
-        down what actually changed.
-      </p>
-      <table>
-        <tr><td><b>Agent</b></td><td>MCP, tool calling, workflow control, multi-agent references.</td></tr>
-        <tr><td><b>Full stack</b></td><td>Java / Spring backend, Vue frontend, APIs, data access, deployment notes.</td></tr>
-        <tr><td><b>Systems</b></td><td>Linux practice, OS reading, network configuration, security labs.</td></tr>
-        <tr><td><b>Learning</b></td><td>Deep learning inference, reinforcement learning, robotics, model deployment.</td></tr>
-      </table>
-    </td>
-  </tr>
-</table>
+## Technical Tracks
 
 <table>
   <tr>
     <td width="58%" valign="top">
-      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full Frieren motion" />
+      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full study motion" />
     </td>
     <td width="42%" valign="top">
-      <h2>Current Direction</h2>
-      <p>
-        I am shaping a student portfolio around engineering range rather than a
-        single label. The next step is to make each important repository easier
-        to scan: purpose, setup, core idea, and what I learned from it.
-      </p>
       <table>
-        <tr><td><b>Now</b></td><td>Agent workflows, Java backend, Linux experiments.</td></tr>
-        <tr><td><b>Next</b></td><td>Cleaner frontend demos, network notes, security practice records.</td></tr>
-        <tr><td><b>Later</b></td><td>Deep learning and reinforcement learning projects with better reproduction logs.</td></tr>
+        <tr><td><b>Agent engineering</b></td><td>MCP, tool calling, workflow control, agent-side automation.</td></tr>
+        <tr><td><b>Full stack</b></td><td>Java / Spring services, Vue interfaces, APIs, data access, deployment notes.</td></tr>
+        <tr><td><b>Systems</b></td><td>Linux practice, OS reading, network configuration, security labs.</td></tr>
+        <tr><td><b>Learning systems</b></td><td>Deep learning inference, reinforcement learning, robotics, model deployment.</td></tr>
       </table>
     </td>
   </tr>
@@ -122,17 +95,6 @@ Mainly learning software engineering: agents, backend, frontend, Linux, networks
 | [roscar-first](https://github.com/xyls999/roscar-first) | Robotics | ROS car project practice and device-side integration. |
 | [cs-review](https://github.com/xyls999/cs-review) | CS basics | Operating systems, networks, Java, and computer science review notes. |
 
-## Technical Tracks
-
-| Track | What I am building toward |
-| --- | --- |
-| Agent engineering | Tool calling, MCP servers, workflow control, agent-side automation, and multi-agent development references. |
-| Full-stack development | Java / Spring services, Vue interfaces, data access, API design, and deployment-friendly project structure. |
-| Linux and operating systems | Command-line practice, OS reading, environment setup, process notes, and system-level debugging habits. |
-| Networks and security | Proxy rules, network configuration, basic security labs, and safer automation records. |
-| Deep learning | PyTorch practice, model inference, LLM serving references, detection/deployment pipelines, and reproducible notes. |
-| Reinforcement learning and robotics | MAPPO, Isaac Lab, LeRobot, ROS car practice, and device-facing experiments. |
-
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -143,19 +105,16 @@ Mainly learning software engineering: agents, backend, frontend, Linux, networks
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <img width="100%" src="./media/sources/campfire-study.jpg" alt="Campfire study square visual" />
     </td>
-    <td width="34%" valign="top">
+    <td width="50%" valign="top">
       <img width="100%" src="./media/sources/red-circle.jpg" alt="Red circle square visual" />
-    </td>
-    <td width="33%" valign="top">
-      <img width="100%" src="./media/sources/rain-mask.jpg" alt="Rain mask square visual" />
-      <br />
-      <img width="140" src="./media/full-motion/aurora-camp-original.gif" alt="Small aurora camp animated preview" />
     </td>
   </tr>
 </table>
+
+## Stack
 
 <table>
   <tr>
@@ -163,7 +122,6 @@ Mainly learning software engineering: agents, backend, frontend, Linux, networks
       <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Full atmospheric motion" />
     </td>
     <td width="38%" valign="top">
-      <h2>Stack</h2>
       <b>Daily use</b>
       <br /><br />
       <img src="https://img.shields.io/badge/Java-2f6f8f?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
