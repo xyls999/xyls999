@@ -3,7 +3,7 @@
 # xyls999 / Dovaklin
 
 Student in **Big Data Management and Application**  
-Building across agent workflows, backend systems, frontend interfaces, Linux, networks, security, deep learning, and reinforcement learning.
+Mainly learning software engineering: agents, backend, frontend, Linux, networks, security, deep learning, and reinforcement learning.
 
 [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
 [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
@@ -14,19 +14,40 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
 
 <table>
   <tr>
-    <td width="43%" valign="top">
-      <h3>Profile</h3>
+    <td width="48%" valign="top">
+      <h2>Welcome</h2>
+      <p>
+        欢迎来到我的专业。欢迎世界各地志同道合的朋友交流技术、沟通方法。
+        也祝愿诸位前行者武运昌隆。
+      </p>
+      <p>
+        Welcome to my field. I mainly study software-oriented engineering, and I
+        am also interested in almost every corner of computer science and its
+        related areas.
+      </p>
+      <p>
+        I hope to use GitHub to record outcomes, share knowledge, keep technical
+        notes traceable, and meet people who care about how things are built.
+      </p>
+    </td>
+    <td width="52%" valign="top">
+      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full July ambient motion" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="34%" valign="top">
+      <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
+    </td>
+    <td width="42%" valign="top">
+      <h2>Profile</h2>
       <p>
         I use GitHub as a working shelf for agent experiments, full-stack
-        practice, Linux notes, network tooling, model learning, and projects
-        that connect software with devices.
+        practice, Linux notes, network tooling, security labs, model learning,
+        and projects that connect software with devices.
       </p>
-      <p>
-        My major gives me the data-management background, but the main track is
-        broader: agents, backend, frontend, systems, security, and learning
-        algorithms.
-      </p>
-      <br />
       <table>
         <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
         <tr><td><b>Main line</b></td><td>Agent engineering and full-stack systems</td></tr>
@@ -34,40 +55,22 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
         <tr><td><b>AI track</b></td><td>Deep learning, reinforcement learning, robotics</td></tr>
       </table>
     </td>
-    <td width="57%" valign="top">
-      <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
+    <td width="24%" valign="top">
+      <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
       <br />
-      <sub>A profile map for projects that move between software, systems, and learning algorithms.</sub>
+      <img width="120" src="./media/full-motion/frieren-preview-original.gif" alt="Small original animated preview" />
     </td>
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td width="56%" valign="top">
-      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full July ambient motion" />
-    </td>
-    <td width="44%" valign="top">
-      <h2>Welcome</h2>
-      <p>
-        欢迎来到我的专业。欢迎世界各地志同道合的朋友交流技术、沟通方法。
-        也祝愿诸位前行者武运昌隆。
-      </p>
-      <p>
-        Welcome to my field. I am always open to technical discussion, learning
-        methods, and careful exchange with people walking a similar road.
-      </p>
-    </td>
-  </tr>
-</table>
+## Study Log
 
 <table>
   <tr>
-    <td width="32%" valign="top">
+    <td width="24%" valign="top">
       <img width="100%" src="./media/full-motion/magic-circle-full.webp" alt="Full magic circle motion" />
     </td>
-    <td width="68%" valign="top">
-      <h2>Study Log</h2>
+    <td width="76%" valign="top">
       <p>
         Current work is organized around a practical loop: read a system,
         reproduce the core idea, build a small interface or service, then write
@@ -85,7 +88,10 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
 
 <table>
   <tr>
-    <td width="62%" valign="top">
+    <td width="58%" valign="top">
+      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full Frieren motion" />
+    </td>
+    <td width="42%" valign="top">
       <h2>Current Direction</h2>
       <p>
         I am shaping a student portfolio around engineering range rather than a
@@ -97,11 +103,6 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
         <tr><td><b>Next</b></td><td>Cleaner frontend demos, network notes, security practice records.</td></tr>
         <tr><td><b>Later</b></td><td>Deep learning and reinforcement learning projects with better reproduction logs.</td></tr>
       </table>
-    </td>
-    <td width="38%" valign="top">
-      <img width="100%" src="./media/full-motion/frieren-preview-original.gif" alt="Original small animated preview" />
-      <br />
-      <sub>Small motion, used as a pacing mark rather than a separate gallery item.</sub>
     </td>
   </tr>
 </table>
@@ -119,26 +120,24 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
 | [roscar-first](https://github.com/xyls999/roscar-first) | Robotics | ROS car project practice and device-side integration. |
 | [cs-review](https://github.com/xyls999/cs-review) | CS basics | Operating systems, networks, Java, and computer science review notes. |
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full Frieren motion" />
-    </td>
-    <td width="50%" valign="top">
-      <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
-    </td>
-  </tr>
-  <tr>
-    <td><sub>Longer study rhythm, kept as full motion.</sub></td>
-    <td><sub>Original static visual, kept without cropping.</sub></td>
-  </tr>
-</table>
+## Technical Tracks
 
-## Stack
+| Track | What I am building toward |
+| --- | --- |
+| Agent engineering | Tool calling, MCP servers, workflow control, agent-side automation, and multi-agent development references. |
+| Full-stack development | Java / Spring services, Vue interfaces, data access, API design, and deployment-friendly project structure. |
+| Linux and operating systems | Command-line practice, OS reading, environment setup, process notes, and system-level debugging habits. |
+| Networks and security | Proxy rules, network configuration, basic security labs, and safer automation records. |
+| Deep learning | PyTorch practice, model inference, LLM serving references, detection/deployment pipelines, and reproducible notes. |
+| Reinforcement learning and robotics | MAPPO, Isaac Lab, LeRobot, ROS car practice, and device-facing experiments. |
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="62%" valign="top">
+      <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Full atmospheric motion" />
+    </td>
+    <td width="38%" valign="top">
+      <h2>Stack</h2>
       <b>Daily use</b>
       <br /><br />
       <img src="https://img.shields.io/badge/Java-2f6f8f?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
@@ -147,8 +146,7 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
       <img src="https://img.shields.io/badge/Vue-2f6f8f?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
       <img src="https://img.shields.io/badge/Spring-2f6f8f?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
       <img src="https://img.shields.io/badge/Linux-2f6f8f?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-    </td>
-    <td width="50%" valign="top">
+      <br /><br />
       <b>Systems and AI</b>
       <br /><br />
       <img src="https://img.shields.io/badge/MySQL-2f6f8f?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
@@ -163,38 +161,7 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
   </tr>
 </table>
 
-## Technical Tracks
-
-| Track | What I am building toward |
-| --- | --- |
-| Agent engineering | Tool calling, MCP servers, workflow control, agent-side automation, and multi-agent development references. |
-| Full-stack development | Java / Spring services, Vue interfaces, data access, API design, and deployment-friendly project structure. |
-| Linux and operating systems | Command-line practice, OS reading, environment setup, process notes, and system-level debugging habits. |
-| Networks and security | Proxy rules, network configuration, basic security labs, and safer automation records. |
-| Deep learning | PyTorch practice, model inference, LLM serving references, detection/deployment pipelines, and reproducible notes. |
-| Reinforcement learning and robotics | MAPPO, Isaac Lab, LeRobot, ROS car practice, and device-facing experiments. |
-
-<table>
-  <tr>
-    <td width="34%" valign="top">
-      <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Full atmospheric motion" />
-    </td>
-    <td width="33%" valign="top">
-      <img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Full ambient scene motion" />
-    </td>
-    <td width="33%" valign="top">
-      <h3>Notes</h3>
-      <p>
-        I keep the moving pieces close to the written sections so they work as
-        rhythm and texture, not as a separate showcase.
-      </p>
-      <p>
-        The README avoids embedded video tags because GitHub filters them in
-        profile pages. These files are full-length animated WebP/GIF assets.
-      </p>
-    </td>
-  </tr>
-</table>
+<img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Full ambient scene motion" />
 
 ## GitHub Activity
 
