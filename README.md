@@ -107,6 +107,8 @@ Mainly learning software engineering: agents, backend, frontend, Linux, networks
   </tr>
 </table>
 
+<img width="100%" src="./media/full-motion/blue-hour-full.webp" alt="Full blue-hour motion" />
+
 ## Selected Repositories
 
 | Repository | Area | What it is for |
@@ -130,6 +132,30 @@ Mainly learning software engineering: agents, backend, frontend, Linux, networks
 | Networks and security | Proxy rules, network configuration, basic security labs, and safer automation records. |
 | Deep learning | PyTorch practice, model inference, LLM serving references, detection/deployment pipelines, and reproducible notes. |
 | Reinforcement learning and robotics | MAPPO, Isaac Lab, LeRobot, ROS car practice, and device-facing experiments. |
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img width="100%" src="./media/sources/dream-map.jpg" alt="Dream map square visual" />
+    </td>
+    <td width="50%" valign="top">
+      <img width="100%" src="./media/sources/rain-study.jpg" alt="Rain study square visual" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <img width="100%" src="./media/sources/campfire-study.jpg" alt="Campfire study square visual" />
+    </td>
+    <td width="34%" valign="top">
+      <img width="100%" src="./media/sources/red-circle.jpg" alt="Red circle square visual" />
+    </td>
+    <td width="33%" valign="top">
+      <img width="100%" src="./media/sources/rain-mask.jpg" alt="Rain mask square visual" />
+      <br />
+      <img width="140" src="./media/full-motion/aurora-camp-original.gif" alt="Small aurora camp animated preview" />
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
