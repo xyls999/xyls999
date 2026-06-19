@@ -18,13 +18,13 @@ Student in Big Data Management and Application. I use this profile to keep cours
   </tr>
   <tr>
     <td width="33%">
-      <video src="./media/video/magic-circle-moon.mp4" muted autoplay loop playsinline width="100%"></video>
+      <img width="100%" src="./media/loops/magic-circle-moon.gif" alt="Magic circle loop" />
     </td>
     <td width="34%">
-      <video src="./media/video/disco-elysium-four.mp4" muted autoplay loop playsinline width="100%"></video>
+      <img width="100%" src="./media/loops/disco-elysium-four.gif" alt="Disco Elysium inspired loop" />
     </td>
     <td width="33%">
-      <video src="./media/video/scene-22.mp4" muted autoplay loop playsinline width="100%"></video>
+      <img width="100%" src="./media/loops/scene-22.gif" alt="Ambient scene loop" />
     </td>
   </tr>
 </table>
