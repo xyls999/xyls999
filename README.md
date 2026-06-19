@@ -3,11 +3,12 @@
 # xyls999 / Dovaklin
 
 Student in **Big Data Management and Application**  
-Building small, reviewable projects around data workflows, backend practice, frontend visualization, and automation.
+Learning data workflows, backend structure, visualization, and useful automation through small projects.
 
-[![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=0969da&label=visits)](https://github.com/xyls999)
-[![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=0969da)](https://github.com/xyls999?tab=followers)
-[![repos](https://img.shields.io/badge/repos-open-0969da?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
+[![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
+[![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
+[![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
+[![major](https://img.shields.io/badge/major-big_data_management-2f6f8f?style=flat-square)](#current-direction)
 
 </div>
 
@@ -16,18 +17,19 @@ Building small, reviewable projects around data workflows, backend practice, fro
     <td width="38%" valign="top">
       <h3>Profile</h3>
       <p>
-        I use GitHub as a working shelf: course labs, project experiments, notes,
-        and tools that should be easy to revisit later.
+        I use GitHub as a working shelf for course labs, project experiments,
+        reading notes, and small tools that can be reviewed later.
       </p>
       <p>
-        The profile is kept intentionally simple. The motion below is atmosphere,
-        while the main content stays about learning direction and projects.
+        The visual layer is kept as atmosphere. The core of this profile is still
+        personal direction, practical work, and a clearer study record.
       </p>
       <br />
       <table>
         <tr><td><b>Major</b></td><td>Big Data Management and Application</td></tr>
         <tr><td><b>Focus</b></td><td>Data systems, backend, visualization</td></tr>
-        <tr><td><b>Habit</b></td><td>Build, document, review, improve</td></tr>
+        <tr><td><b>Method</b></td><td>Build, document, review, improve</td></tr>
+        <tr><td><b>Output</b></td><td>Readable repositories and repeatable notes</td></tr>
       </table>
     </td>
     <td width="62%" valign="top">
@@ -35,6 +37,29 @@ Building small, reviewable projects around data workflows, backend practice, fro
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td width="58%" valign="top">
+      <img width="100%" src="./media/sources/noir-study.jpg" alt="Noir illustration visual" />
+    </td>
+    <td width="42%" valign="top">
+      <h3>Current Direction</h3>
+      <p>
+        I am shaping a student profile around data management practice: cleaner
+        inputs, clearer storage, better analysis notes, and interfaces that make
+        project results easier to inspect.
+      </p>
+      <table>
+        <tr><td><b>Now</b></td><td>Backend APIs and data workflow notes</td></tr>
+        <tr><td><b>Next</b></td><td>Visualization pages and deployment records</td></tr>
+        <tr><td><b>Long term</b></td><td>More complete project documentation</td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+## Motion Board
 
 <table>
   <tr>
@@ -53,16 +78,32 @@ Building small, reviewable projects around data workflows, backend practice, fro
     <td><sub>context and observation</sub></td>
     <td><sub>quiet motion</sub></td>
   </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <img width="100%" src="./media/loops/july-22.gif" alt="July ambient loop" />
+    </td>
+    <td width="34%" valign="top">
+      <img width="100%" src="./media/loops/frieren-study.gif" alt="Frieren study loop" />
+    </td>
+    <td width="33%" valign="top">
+      <img width="100%" src="./media/loops/frieren-preview.gif" alt="Small animated preview loop" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub>daily rhythm</sub></td>
+    <td><sub>patient learning</sub></td>
+    <td><sub>small momentum</sub></td>
+  </tr>
 </table>
 
 ## Current Work
 
-| Track | What I am practicing |
-| --- | --- |
-| Data workflow | Collection, cleaning, storage, analysis, and visualization. |
-| Backend | Java / Spring structure, APIs, database access, and deployment notes. |
-| Frontend | Vue pages that make project results easier to read. |
-| Automation | Scripts and GitHub Actions for repeated updates and maintenance. |
+| Track | What I am practicing | Target output |
+| --- | --- | --- |
+| Data workflow | Collection, cleaning, storage, analysis, and visualization. | Notes that can explain the full path of a dataset. |
+| Backend | Java / Spring structure, APIs, database access, and deployment notes. | Small services with readable layers and routes. |
+| Frontend | Vue pages that make project results easier to read. | Clear tables, charts, forms, and interaction states. |
+| Automation | Scripts and GitHub Actions for repeated updates and maintenance. | Fewer manual steps and more consistent records. |
 
 ## Selected Repositories
 
@@ -84,22 +125,22 @@ Building small, reviewable projects around data workflows, backend practice, fro
     <td width="50%" valign="top">
       <b>Daily use</b>
       <br /><br />
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-      <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
+      <img src="https://img.shields.io/badge/Java-2f6f8f?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+      <img src="https://img.shields.io/badge/Python-2f6f8f?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/JavaScript-2f6f8f?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/Vue-2f6f8f?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+      <img src="https://img.shields.io/badge/Spring-2f6f8f?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
+      <img src="https://img.shields.io/badge/Linux-2f6f8f?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
     </td>
     <td width="50%" valign="top">
       <b>Data and tooling</b>
       <br /><br />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-      <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
+      <img src="https://img.shields.io/badge/MySQL-2f6f8f?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+      <img src="https://img.shields.io/badge/SQLite-2f6f8f?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+      <img src="https://img.shields.io/badge/Jupyter-2f6f8f?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+      <img src="https://img.shields.io/badge/Docker-2f6f8f?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2f6f8f?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Markdown-2f6f8f?style=flat-square&logo=markdown&logoColor=white" alt="Markdown" />
     </td>
   </tr>
 </table>
@@ -153,4 +194,4 @@ Building small, reviewable projects around data workflows, backend practice, fro
 
 ## Reference
 
-Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially `Descriptive`, `Simple but Innovative Ones`, and `Minimalistic`: clear information, a light structure, and restrained dynamic widgets.
+Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially `Descriptive`, `Simple but Innovative Ones`, `GIFS`, `Dynamic Realtime`, and `Just Images`: clear information first, real media second, and GitHub-safe widgets only.
