@@ -15,16 +15,16 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 <table>
   <tr>
     <td width="46%" valign="top">
-      <h2>Welcome</h2>
+      <h2>Homepage</h2>
       <p>
-        This profile is an open notebook for software practice, technical
-        experiments, and long-term learning. I am glad to meet people from
-        different places who care about engineering, methods, and the discipline
-        behind useful systems.
+        This profile is my public notebook for software practice, technical
+        experiments, and long-term learning. I use it to keep project outcomes,
+        references, implementation notes, and ideas that are worth revisiting.
       </p>
       <p>
-        May every serious builder keep moving forward with courage and good
-        judgment.
+        I welcome builders from different backgrounds to exchange technical
+        views, learning methods, and practical experience. Good engineering is
+        rarely a solo path.
       </p>
     </td>
     <td width="54%" valign="top">
@@ -41,13 +41,9 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
     <td width="43%" valign="top">
       <h2>Profile</h2>
       <p>
-        I mainly study software engineering, while staying curious about the
-        wider computer-science field and the adjacent areas that connect code to
-        real environments.
-      </p>
-      <p>
-        GitHub is where I keep results, references, reproducible notes, and
-        project records that can be revisited after the first round of learning.
+        I mainly study software engineering, while staying curious about computer
+        science and related fields that connect code to real environments:
+        devices, data, networks, systems, models, and human workflows.
       </p>
       <table>
         <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
@@ -62,13 +58,33 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
   </tr>
 </table>
 
-## Technical Tracks
+## Laboratory
 
 <table>
   <tr>
     <td width="58%" valign="top">
       <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full study motion" />
     </td>
+    <td width="42%" valign="top">
+      <h3>Hehai University Zhize Laboratory</h3>
+      <p>
+        I am part of Zhize Laboratory at Hehai University, a mostly
+        undergraduate laboratory shaped around technical practice, project
+        exploration, and innovation-oriented learning.
+      </p>
+      <p>
+        The lab setting pushes me to treat projects as more than coursework:
+        read the system, build a prototype, test the idea, record the process,
+        and make the next attempt clearer.
+      </p>
+    </td>
+  </tr>
+</table>
+
+## Technical Tracks
+
+<table>
+  <tr>
     <td width="42%" valign="top">
       <table>
         <tr><td><b>Agent engineering</b></td><td>MCP, tool calling, workflow control, agent-side automation.</td></tr>
@@ -77,10 +93,11 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         <tr><td><b>Learning systems</b></td><td>Deep learning inference, reinforcement learning, robotics, model deployment.</td></tr>
       </table>
     </td>
+    <td width="58%" valign="top">
+      <img width="100%" src="./media/full-motion/blue-hour-full.webp" alt="Full blue-hour motion" />
+    </td>
   </tr>
 </table>
-
-<img width="100%" src="./media/full-motion/blue-hour-full.webp" alt="Full blue-hour motion" />
 
 ## Selected Repositories
 
@@ -101,15 +118,31 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
       <img width="100%" src="./media/sources/dream-map.jpg" alt="Dream map square visual" />
     </td>
     <td width="50%" valign="top">
-      <img width="100%" src="./media/sources/rain-study.jpg" alt="Rain study square visual" />
+      <h3>Why These Notes Exist</h3>
+      <p>
+        I do not want repositories to be only file storage. A useful repository
+        should show the problem, the path taken, the result, and the next thing
+        to improve.
+      </p>
+      <p>
+        This is why my profile mixes project links with visual markers: each
+        section should feel like a part of a learning record, not a standalone
+        gallery.
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img width="100%" src="./media/sources/campfire-study.jpg" alt="Campfire study square visual" />
+      <h3>Learning Attitude</h3>
+      <p>
+        I am especially focused on software direction, but I keep an open
+        interest in adjacent computer-related areas. Operating systems, networks,
+        model deployment, security practice, and robotics often meet in the same
+        project sooner than expected.
+      </p>
     </td>
     <td width="50%" valign="top">
-      <img width="100%" src="./media/sources/red-circle.jpg" alt="Red circle square visual" />
+      <img width="100%" src="./media/sources/rain-study.jpg" alt="Rain study square visual" />
     </td>
   </tr>
 </table>
@@ -145,7 +178,21 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
   </tr>
 </table>
 
-<img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Full ambient scene motion" />
+<table>
+  <tr>
+    <td width="42%" valign="top">
+      <h3>Current Goal</h3>
+      <p>
+        Make selected repositories easier to read, reproduce, and evaluate:
+        clearer README files, better setup notes, smaller verified examples, and
+        more honest records of what works.
+      </p>
+    </td>
+    <td width="58%" valign="top">
+      <img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Full ambient scene motion" />
+    </td>
+  </tr>
+</table>
 
 ## GitHub Activity
 
