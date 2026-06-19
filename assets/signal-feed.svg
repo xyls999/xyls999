@@ -22,45 +22,45 @@
     <animate attributeName="opacity" values=".1;.55;.1" dur="5.8s" repeatCount="indefinite"/>
   </rect>
   <g transform="translate(54 132)">
-            <circle cx="10" cy="10" r="6" fill="#78DCE8">
+            <circle cx="10" cy="10" r="6" fill="#7DCFFF">
               <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+            </circle>
+            <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
+            <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
+            <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">xyls999</text>
+            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">13:26</text>
+          </g><g transform="translate(54 166)">
+            <circle cx="10" cy="10" r="6" fill="#78DCE8">
+              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.25s"/>
             </circle>
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#78DCE8">FORK</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">claude-howto-zh-cn</text>
             <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">13:16</text>
-          </g><g transform="translate(54 166)">
+          </g><g transform="translate(54 200)">
             <circle cx="10" cy="10" r="6" fill="#7DCFFF">
-              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.25s"/>
+              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.5s"/>
             </circle>
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">A9-harmony-front-device</text>
             <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">13:12</text>
-          </g><g transform="translate(54 200)">
+          </g><g transform="translate(54 234)">
             <circle cx="10" cy="10" r="6" fill="#F7768E">
-              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.5s"/>
+              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.75s"/>
             </circle>
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#F7768E">PR opened</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">A9-harmony-front-device</text>
             <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">13:03</text>
-          </g><g transform="translate(54 234)">
+          </g><g transform="translate(54 268)">
             <circle cx="10" cy="10" r="6" fill="#AB9DF2">
-              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="0.75s"/>
+              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="1s"/>
             </circle>
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#AB9DF2">CREATE branch</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">A9-harmony-front-device</text>
             <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">13:03</text>
-          </g><g transform="translate(54 268)">
-            <circle cx="10" cy="10" r="6" fill="#7DCFFF">
-              <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="1s"/>
-            </circle>
-            <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
-            <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
-            <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">xyls999</text>
-            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">14:21</text>
           </g><g transform="translate(54 302)">
             <circle cx="10" cy="10" r="6" fill="#7DCFFF">
               <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite" begin="1.25s"/>
@@ -68,7 +68,7 @@
             <rect x="26" y="0" width="1080" height="24" rx="10" fill="#0D1117" stroke="#214E68"/>
             <text x="44" y="16" class="mono" font-size="12" fill="#7DCFFF">PUSH</text>
             <text x="156" y="16" class="mono" font-size="12" fill="#F5F2E8">xyls999</text>
-            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">13:47</text>
+            <text x="972" y="16" class="mono" font-size="12" fill="#8B949E">14:21</text>
           </g>
   <path d="M78 262 H1118" stroke="#214E68" opacity=".5"/>
   <text x="78" y="292" class="mono" font-size="13" fill="#7DCFFF">&gt; waiting for next move _</text>
