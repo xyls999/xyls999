@@ -44,6 +44,25 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
 
 <table>
   <tr>
+    <td width="56%" valign="top">
+      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full July ambient motion" />
+    </td>
+    <td width="44%" valign="top">
+      <h2>Welcome</h2>
+      <p>
+        欢迎来到我的专业。欢迎世界各地志同道合的朋友交流技术、沟通方法。
+        也祝愿诸位前行者武运昌隆。
+      </p>
+      <p>
+        Welcome to my field. I am always open to technical discussion, learning
+        methods, and careful exchange with people walking a similar road.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
     <td width="32%" valign="top">
       <img width="100%" src="./media/full-motion/magic-circle-full.webp" alt="Full magic circle motion" />
     </td>
@@ -86,8 +105,6 @@ Building across agent workflows, backend systems, frontend interfaces, Linux, ne
     </td>
   </tr>
 </table>
-
-<img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full July ambient motion" />
 
 ## Selected Repositories
 
