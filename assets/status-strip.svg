@@ -23,7 +23,7 @@
       <g transform="translate(24 9)">
         <circle cx="14" cy="14" r="10" fill="#7DCFFF" opacity=".18" stroke="#7DCFFF"/>
         <text x="36" y="11" class="label">REPOS</text>
-        <text x="36" y="29" class="value">59</text>
+        <text x="36" y="29" class="value">60</text>
       </g>
       <g transform="translate(194 9)">
         <circle cx="14" cy="14" r="10" fill="#F7768E" opacity=".18" stroke="#F7768E"/>

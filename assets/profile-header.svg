@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">xyls999 profile header</title>
+  <desc id="desc">A clean personal GitHub profile header for xyls999.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#101826"/>
+      <stop offset="1" stop-color="#132235"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7DCFFF"/>
+      <stop offset="0.52" stop-color="#A9DC76"/>
+      <stop offset="1" stop-color="#F2B35D"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#7DCFFF" stroke-opacity=".06"/>
+    </pattern>
+    <style>
+      .ui{font-family:Segoe UI,Arial,sans-serif}
+      .mono{font-family:Consolas,Monaco,monospace}
+      .muted{fill:#8B949E}
+      .text{fill:#F5F2E8}
+      .scan{stroke-dasharray:10 14;animation:scan 12s linear infinite}
+      @keyframes scan{to{stroke-dashoffset:-260}}
+    </style>
+  </defs>
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)" opacity=".8"/>
+  <rect x="28" y="28" width="1144" height="284" rx="16" fill="#0D1117" fill-opacity=".62" stroke="#214E68"/>
+  <path class="scan" d="M62 266H1138" stroke="url(#line)" stroke-width="3" opacity=".85"/>
+  <g transform="translate(64 64)">
+    <text class="mono muted" x="0" y="0" font-size="15">xyls999 / Dovaklin</text>
+    <text class="ui text" x="0" y="62" font-size="54" font-weight="800">刘鸿宇</text>
+    <text class="ui text" x="0" y="105" font-size="28" font-weight="700">Big Data Management &amp; Application</text>
+    <text class="mono muted" x="0" y="145" font-size="17">Java · Python · Vue · Data Engineering · Systems Practice</text>
+    <text class="ui text" x="0" y="192" font-size="18" opacity=".9">关注数据管理、工程实践、自动化工具和可复用项目沉淀。</text>
+  </g>
+  <g transform="translate(795 74)">
+    <rect width="310" height="154" rx="14" fill="#101826" stroke="#214E68"/>
+    <text class="mono muted" x="24" y="34" font-size="13">CURRENT FOCUS</text>
+    <text class="ui text" x="24" y="70" font-size="22" font-weight="700">把课程、项目和工具做成可复用资产</text>
+    <path d="M24 100H286" stroke="#214E68"/>
+    <text class="mono" x="24" y="130" font-size="14" fill="#7DCFFF">data → backend → interface → docs</text>
+  </g>
+</svg>

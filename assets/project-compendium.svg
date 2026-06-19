@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
   <title id="title">Project compendium</title>
-  <desc id="desc">Clickable RPG-style project cards for xyls999 repositories.</desc>
+  <desc id="desc">Clickable project cards for xyls999 repositories.</desc>
   
     <style>
       .ui{font-family:Segoe UI,Arial,sans-serif}
@@ -14,13 +14,13 @@
   
   <rect width="1200" height="620" rx="16" fill="#0D1117"/>
   <rect x="22" y="22" width="1156" height="576" rx="14" fill="#101826" stroke="#214E68"/>
-  <text x="54" y="70" class="title">Project Compendium</text>
-  <text x="54" y="98" class="muted">original quests surfaced from public repositories :: click a card to open the repo</text>
+  <text x="54" y="70" class="title">Project Overview</text>
+  <text x="54" y="98" class="muted">selected repositories surfaced from public data :: click a card to open the repo</text>
   <a href="https://github.com/xyls999/A2-AgentLinux">
         <g transform="translate(54 112)">
           <rect width="492" height="92" rx="14" fill="#0D1117" stroke="#214E68"/>
           <rect x="18" y="18" width="78" height="24" rx="12" fill="#F7768E" opacity=".22" stroke="#F7768E" stroke-opacity=".75"/>
-          <text x="34" y="35" class="small" fill="#F7768E">AGENT</text>
+          <text x="34" y="35" class="small" fill="#F7768E">AUTOMATION</text>
           <text x="112" y="36" class="mono" font-size="18" font-weight="800" fill="#F5F2E8">A2-AgentLinux</text>
           <text x="112" y="61" class="body">Python</text>
           <text x="18" y="74" class="small" fill="#8B949E">Python · ★ 1 · 2026-06-14</text>
@@ -56,7 +56,7 @@
         <g transform="translate(54 348)">
           <rect width="492" height="92" rx="14" fill="#0D1117" stroke="#214E68"/>
           <rect x="18" y="18" width="78" height="24" rx="12" fill="#78DCE8" opacity=".22" stroke="#78DCE8" stroke-opacity=".75"/>
-          <text x="34" y="35" class="small" fill="#78DCE8">QUEST</text>
+          <text x="34" y="35" class="small" fill="#78DCE8">PROJECT</text>
           <text x="112" y="36" class="mono" font-size="18" font-weight="800" fill="#F5F2E8">xyls-smartgroup-clash</text>
           <text x="112" y="61" class="body">a yaml to use smartgroup to adjust mihomo</text>
           <text x="18" y="74" class="small" fill="#8B949E">mixed · ★ 2 · 2026-03-30</text>

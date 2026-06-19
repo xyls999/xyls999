@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
   <title id="title">System loop</title>
-  <desc id="desc">A stable SVG replacement for Mermaid system loop.</desc>
+  <desc id="desc">A concise workflow loop for learning and project work.</desc>
   
     <style>
       .ui{font-family:Segoe UI,Arial,sans-serif}
@@ -14,29 +14,29 @@
   
   <rect width="1200" height="310" rx="16" fill="#0D1117"/>
   <rect x="22" y="22" width="1156" height="266" rx="14" fill="#101826" stroke="#214E68"/>
-  <text x="54" y="70" class="title">System Loop</text>
-  <text x="54" y="98" class="muted">intent → plan → tool → trace → test → artifact → return</text>
+  <text x="54" y="70" class="title">Workflow Loop</text>
+  <text x="54" y="98" class="muted">idea → plan → code → data → test → document → review</text>
   <g transform="translate(74 158)">
       <circle cx="36" cy="36" r="34" fill="#0D1117" stroke="#7DCFFF" stroke-width="3"/>
-      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Intent</text>
+      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Idea</text>
     </g><g transform="translate(225 188)">
       <circle cx="36" cy="36" r="34" fill="#0D1117" stroke="#F2B35D" stroke-width="3"/>
       <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Plan</text>
     </g><g transform="translate(376 158)">
       <circle cx="36" cy="36" r="34" fill="#0D1117" stroke="#F7768E" stroke-width="3"/>
-      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Tool / MCP</text>
+      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Code</text>
     </g><g transform="translate(527 188)">
       <circle cx="36" cy="36" r="34" fill="#0D1117" stroke="#7DCFFF" stroke-width="3"/>
-      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Trace</text>
+      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Data</text>
     </g><g transform="translate(678 158)">
       <circle cx="36" cy="36" r="34" fill="#0D1117" stroke="#F2B35D" stroke-width="3"/>
       <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Test</text>
     </g><g transform="translate(829 188)">
       <circle cx="36" cy="36" r="34" fill="#0D1117" stroke="#F7768E" stroke-width="3"/>
-      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Artifact</text>
+      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Docs</text>
     </g><g transform="translate(980 158)">
       <circle cx="36" cy="36" r="34" fill="#0D1117" stroke="#7DCFFF" stroke-width="3"/>
-      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Return</text>
+      <text x="36" y="41" text-anchor="middle" class="small" fill="#F5F2E8">Review</text>
     </g>
   <path d="M146 195 C245 123 312 251 412 185 S584 146 684 203 S842 243 946 184 S1050 132 1110 192" fill="none" stroke="#214E68" stroke-width="3"/>
   <path d="M1065 178 1110 192 1078 225" fill="none" stroke="#F2B35D" stroke-width="3"/>

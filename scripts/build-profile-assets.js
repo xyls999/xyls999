@@ -119,12 +119,12 @@ function languageCounts(repos) {
 function projectType(repo) {
   const name = repo.name.toLowerCase();
   const text = `${repo.name} ${repo.description || ""}`.toLowerCase();
-  if (text.includes("agent") || text.includes("workflow") || text.includes("skill") || text.includes("bot")) return "AGENT";
+  if (text.includes("agent") || text.includes("workflow") || text.includes("skill") || text.includes("bot")) return "AUTOMATION";
   if (text.includes("ros") || text.includes("robot") || text.includes("mcp") || text.includes("harmony")) return "DEVICE";
   if (text.includes("os") || text.includes("linux") || name.includes("hhuos")) return "SYSTEM";
   if (repo.language === "Java" || text.includes("spring") || text.includes("backend")) return "BACKEND";
   if (repo.language === "Vue" || repo.language === "JavaScript" || text.includes("web") || text.includes("page")) return "FRONTEND";
-  return "QUEST";
+  return "PROJECT";
 }
 
 function pickProjects(repos) {
@@ -223,7 +223,7 @@ function writeActivityDashboard({ user, repos }) {
   ${style()}
   ${frame(1200, 330)}
   <text x="54" y="70" class="title">Activity Dashboard</text>
-  <text x="54" y="98" class="muted">self-generated from GitHub API :: no external stats card failure mode</text>
+  <text x="54" y="98" class="muted">generated from GitHub public data :: stable local SVG</text>
   <g transform="translate(54 130)">
     ${statBox(0, "PUBLIC REPOS", user.public_repos, "#7DCFFF")}
     ${statBox(210, "ORIGINAL", owned.length, "#F2B35D")}
@@ -256,7 +256,7 @@ function writeProjectCompendium({ repos }) {
       const x = 54 + col * 546;
       const y = 112 + row * 118;
       const type = projectType(repo);
-      const color = type === "DEVICE" ? "#7DCFFF" : type === "BACKEND" ? "#F2B35D" : type === "FRONTEND" ? "#A9DC76" : type === "SYSTEM" ? "#AB9DF2" : type === "AGENT" ? "#F7768E" : "#78DCE8";
+      const color = type === "DEVICE" ? "#7DCFFF" : type === "BACKEND" ? "#F2B35D" : type === "FRONTEND" ? "#A9DC76" : type === "SYSTEM" ? "#AB9DF2" : type === "AUTOMATION" ? "#F7768E" : "#78DCE8";
       return `<a href="${repoUrl(repo.name)}">
         <g transform="translate(${x} ${y})">
           <rect width="492" height="92" rx="14" fill="#0D1117" stroke="#214E68"/>
@@ -272,11 +272,11 @@ function writeProjectCompendium({ repos }) {
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
   <title id="title">Project compendium</title>
-  <desc id="desc">Clickable RPG-style project cards for xyls999 repositories.</desc>
+  <desc id="desc">Clickable project cards for xyls999 repositories.</desc>
   ${style()}
   ${frame(1200, 620)}
-  <text x="54" y="70" class="title">Project Compendium</text>
-  <text x="54" y="98" class="muted">original quests surfaced from public repositories :: click a card to open the repo</text>
+  <text x="54" y="70" class="title">Project Overview</text>
+  <text x="54" y="98" class="muted">selected repositories surfaced from public data :: click a card to open the repo</text>
   ${cards}
 </svg>`;
   fs.writeFileSync(path.join(ASSET_DIR, "project-compendium.svg"), svg);
@@ -324,51 +324,6 @@ function writeSignalFeed({ events }) {
   fs.writeFileSync(path.join(ASSET_DIR, "signal-feed.svg"), svg);
 }
 
-function writeConstellation({ repos }) {
-  const projects = pickProjects(repos);
-  const points = [
-    { x: 170, y: 110, repo: projects[0], r: 16 },
-    { x: 360, y: 52, repo: projects[1], r: 15 },
-    { x: 560, y: 112, repo: projects[2], r: 18 },
-    { x: 740, y: 62, repo: projects[3], r: 15 },
-    { x: 920, y: 138, repo: projects[4], r: 16 },
-    { x: 600, y: 220, repo: projects[5], r: 17 },
-  ].filter((p) => p.repo);
-  const center = { x: 600, y: 160 };
-  const links = points
-    .map((p) => `<path d="M${center.x} ${center.y} L${p.x} ${p.y}" stroke="#214E68" stroke-width="2" opacity=".75"/>`)
-    .join("");
-  const nodes = points
-    .map((p, i) => {
-      const color = ["#7DCFFF", "#F2B35D", "#F7768E", "#A9DC76", "#AB9DF2", "#78DCE8"][i];
-      return `<g transform="translate(${p.x} ${p.y})">
-        <circle r="${p.r + 12}" fill="${color}" opacity=".12">
-          <animate attributeName="r" values="${p.r + 10};${p.r + 16};${p.r + 10}" dur="4s" repeatCount="indefinite" begin="${i * 0.3}s"/>
-        </circle>
-        <circle r="${p.r}" fill="${color}" opacity=".92"/>
-        <text x="0" y="34" text-anchor="middle" class="mono" font-size="12" fill="#F5F2E8">${esc(truncate(p.repo.name, 16))}</text>
-        <text x="0" y="50" text-anchor="middle" class="mono" font-size="11" fill="#8B949E">★ ${p.repo.stargazers_count}</text>
-      </g>`;
-    })
-    .join("");
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Project constellation</title>
-  <desc id="desc">A connected constellation of current core repositories.</desc>
-  ${style()}
-  ${frame(1200, 320)}
-  <text x="54" y="70" class="title">Project Constellation</text>
-  <text x="54" y="98" class="muted">your core repos as connected stars in the same build graph</text>
-  <g opacity=".95">
-    ${links}
-    <circle cx="${center.x}" cy="${center.y}" r="30" fill="#F2B35D" opacity=".18"/>
-    <circle cx="${center.x}" cy="${center.y}" r="18" fill="#F2B35D"/>
-    <text x="${center.x}" y="${center.y + 48}" text-anchor="middle" class="mono" font-size="13" fill="#F5F2E8">DOVAKLIN</text>
-    ${nodes}
-  </g>
-</svg>`;
-  fs.writeFileSync(path.join(ASSET_DIR, "constellation.svg"), svg);
-}
-
 function writeResearchRadar({ repos, events }) {
   const radar = pickRadar(repos, events);
   const rows = radar
@@ -391,8 +346,8 @@ function writeResearchRadar({ repos, events }) {
   <desc id="desc">A radar of recently explored public projects and forked references.</desc>
   ${style()}
   ${frame(1200, 340)}
-  <text x="54" y="70" class="title">Research Radar</text>
-  <text x="54" y="98" class="muted">projects being studied, forked, or used as reference material</text>
+  <text x="54" y="70" class="title">Research &amp; References</text>
+  <text x="54" y="98" class="muted">repositories being studied, forked, or used as reference material</text>
   ${rows}
 </svg>`;
   fs.writeFileSync(path.join(ASSET_DIR, "research-radar.svg"), svg);
@@ -401,12 +356,12 @@ function writeResearchRadar({ repos, events }) {
 function writeSystemLoop() {
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
   <title id="title">System loop</title>
-  <desc id="desc">A stable SVG replacement for Mermaid system loop.</desc>
+  <desc id="desc">A concise workflow loop for learning and project work.</desc>
   ${style()}
   ${frame(1200, 310)}
-  <text x="54" y="70" class="title">System Loop</text>
-  <text x="54" y="98" class="muted">intent → plan → tool → trace → test → artifact → return</text>
-  ${["Intent", "Plan", "Tool / MCP", "Trace", "Test", "Artifact", "Return"].map((label, i) => {
+  <text x="54" y="70" class="title">Workflow Loop</text>
+  <text x="54" y="98" class="muted">idea → plan → code → data → test → document → review</text>
+  ${["Idea", "Plan", "Code", "Data", "Test", "Docs", "Review"].map((label, i) => {
     const x = 74 + i * 151;
     const y = 158 + (i % 2) * 30;
     const color = ["#7DCFFF", "#F2B35D", "#F7768E"][i % 3];
@@ -428,7 +383,6 @@ async function main() {
   writeActivityDashboard(data);
   writeSignalFeed(data);
   writeProjectCompendium(data);
-  writeConstellation(data);
   writeResearchRadar(data);
   writeSystemLoop();
 }
