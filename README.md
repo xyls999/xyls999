@@ -15,7 +15,7 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 <table>
   <tr>
     <td width="46%" valign="top">
-      <h2>Homepage</h2>
+      <img width="100%" src="./media/type/profile-home.svg" alt="Profile Home" />
       <p>
         This profile is my public notebook for software practice, technical
         experiments, and long-term learning. I use it to keep project outcomes,
@@ -25,6 +25,11 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         I welcome builders from different backgrounds to exchange technical
         views, learning methods, and practical experience. Good engineering is
         rarely a solo path.
+      </p>
+      <p>
+        The work here is intentionally broad, but not random: I like systems
+        that connect interfaces, services, operating environments, models, and
+        tools into something that can be tested and explained.
       </p>
     </td>
     <td width="54%" valign="top">
@@ -103,7 +108,7 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
   </tr>
 </table>
 
-## Technical Tracks
+<img width="100%" src="./media/type/technical-tracks.svg" alt="Technical Tracks" />
 
 <table>
   <tr>
@@ -114,6 +119,11 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         <tr><td><b>Systems</b></td><td>Linux practice, OS reading, network configuration, security labs.</td></tr>
         <tr><td><b>Learning systems</b></td><td>Deep learning inference, reinforcement learning, robotics, model deployment.</td></tr>
       </table>
+      <p>
+        I try to keep each track grounded in small artifacts: a service that
+        runs, a note that explains the setup, a script that removes repeated
+        work, or a reproduction log that makes the next attempt easier.
+      </p>
     </td>
     <td width="58%" valign="top">
       <img width="100%" src="./media/full-motion/blue-hour-full.webp" alt="Full blue-hour motion" />
@@ -121,7 +131,7 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
   </tr>
 </table>
 
-## Selected Repositories
+<img width="100%" src="./media/type/repository-notes.svg" alt="Repository Notes" />
 
 | Repository | Area | What it is for |
 | --- | --- | --- |
@@ -151,6 +161,11 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         section should feel like a part of a learning record, not a standalone
         gallery.
       </p>
+      <p>
+        The goal is not to make every repository look finished. The goal is to
+        make the direction readable, so future work can start from evidence
+        instead of memory.
+      </p>
     </td>
   </tr>
   <tr>
@@ -161,6 +176,11 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         interest in adjacent computer-related areas. Operating systems, networks,
         model deployment, security practice, and robotics often meet in the same
         project sooner than expected.
+      </p>
+      <p>
+        That overlap is the interesting part: frontend pages need backend
+        contracts, agents need tools and environments, and learning systems need
+        deployment habits before they become useful.
       </p>
     </td>
     <td width="50%" valign="top">
@@ -203,7 +223,7 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 <table>
   <tr>
     <td width="68%" valign="top">
-      <h3>Current Goal</h3>
+      <img width="100%" src="./media/type/current-goal.svg" alt="Current Goal" />
       <p>
         Make selected repositories easier to read, reproduce, and evaluate:
         clearer README files, better setup notes, smaller verified examples, and
