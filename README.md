@@ -3,107 +3,89 @@
 # xyls999 / Dovaklin
 
 Student in **Big Data Management and Application**  
-Learning data workflows, backend structure, visualization, and useful automation through small projects.
+Building a practical record of data workflows, backend structure, visualization, and automation.
 
 [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
 [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
 [![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
-[![major](https://img.shields.io/badge/major-big_data_management-2f6f8f?style=flat-square)](#current-direction)
+[![major](https://img.shields.io/badge/major-big_data_management-2f6f8f?style=flat-square)](#study-log)
 
 </div>
 
 <table>
   <tr>
-    <td width="38%" valign="top">
+    <td width="43%" valign="top">
       <h3>Profile</h3>
       <p>
-        I use GitHub as a working shelf for course labs, project experiments,
-        reading notes, and small tools that can be reviewed later.
+        I use GitHub as a working shelf: course labs, project experiments,
+        reading notes, and small tools that should remain understandable after
+        the first commit.
       </p>
       <p>
-        The visual layer is kept as atmosphere. The core of this profile is still
-        personal direction, practical work, and a clearer study record.
+        The profile keeps a quiet visual layer, but the main signal is still the
+        work: data management practice, clearer repositories, and steady review.
       </p>
       <br />
       <table>
         <tr><td><b>Major</b></td><td>Big Data Management and Application</td></tr>
         <tr><td><b>Focus</b></td><td>Data systems, backend, visualization</td></tr>
         <tr><td><b>Method</b></td><td>Build, document, review, improve</td></tr>
-        <tr><td><b>Output</b></td><td>Readable repositories and repeatable notes</td></tr>
+        <tr><td><b>Goal</b></td><td>Useful projects with readable records</td></tr>
       </table>
     </td>
-    <td width="62%" valign="top">
+    <td width="57%" valign="top">
       <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
+      <br />
+      <sub>A map-like opening image for a profile that is mostly about paths, records, and checkpoints.</sub>
     </td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="58%" valign="top">
-      <img width="100%" src="./media/sources/noir-study.jpg" alt="Noir illustration visual" />
+    <td width="32%" valign="top">
+      <img width="100%" src="./media/full-motion/magic-circle-full.webp" alt="Full magic circle motion" />
     </td>
-    <td width="42%" valign="top">
-      <h3>Current Direction</h3>
+    <td width="68%" valign="top">
+      <h2>Study Log</h2>
       <p>
-        I am shaping a student profile around data management practice: cleaner
-        inputs, clearer storage, better analysis notes, and interfaces that make
-        project results easier to inspect.
+        Current work is organized around a simple loop: understand the data,
+        build the service, show the result, then write down what changed.
       </p>
       <table>
-        <tr><td><b>Now</b></td><td>Backend APIs and data workflow notes</td></tr>
-        <tr><td><b>Next</b></td><td>Visualization pages and deployment records</td></tr>
-        <tr><td><b>Long term</b></td><td>More complete project documentation</td></tr>
+        <tr><td><b>Data workflow</b></td><td>Collection, cleaning, storage, analysis, and visualization.</td></tr>
+        <tr><td><b>Backend</b></td><td>Java / Spring structure, APIs, database access, and deployment notes.</td></tr>
+        <tr><td><b>Frontend</b></td><td>Vue pages that make project results easier to read and check.</td></tr>
+        <tr><td><b>Automation</b></td><td>Scripts and GitHub Actions for repeated updates and maintenance.</td></tr>
       </table>
     </td>
   </tr>
 </table>
 
-## Motion Board
-
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <img width="100%" src="./media/loops/magic-circle-moon.gif" alt="Magic circle loop" />
+    <td width="62%" valign="top">
+      <h2>Current Direction</h2>
+      <p>
+        I am shaping a student portfolio that can explain both process and
+        output. The next step is to make more repositories easy to scan: purpose,
+        setup, screenshots or examples, and review notes.
+      </p>
+      <table>
+        <tr><td><b>Now</b></td><td>Backend APIs and data workflow notes.</td></tr>
+        <tr><td><b>Next</b></td><td>Visualization pages and deployment records.</td></tr>
+        <tr><td><b>Later</b></td><td>More complete documentation for selected projects.</td></tr>
+      </table>
     </td>
-    <td width="34%" valign="top">
-      <img width="100%" src="./media/loops/disco-elysium-four.gif" alt="Atmospheric loop" />
+    <td width="38%" valign="top">
+      <img width="100%" src="./media/full-motion/frieren-preview-original.gif" alt="Original small animated preview" />
+      <br />
+      <sub>Small motion, used as a pacing mark rather than a separate gallery item.</sub>
     </td>
-    <td width="33%" valign="top">
-      <img width="100%" src="./media/loops/scene-22.gif" alt="Ambient scene loop" />
-    </td>
-  </tr>
-  <tr>
-    <td><sub>repeatable systems</sub></td>
-    <td><sub>context and observation</sub></td>
-    <td><sub>quiet motion</sub></td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <img width="100%" src="./media/loops/july-22.gif" alt="July ambient loop" />
-    </td>
-    <td width="34%" valign="top">
-      <img width="100%" src="./media/loops/frieren-study.gif" alt="Frieren study loop" />
-    </td>
-    <td width="33%" valign="top">
-      <img width="100%" src="./media/loops/frieren-preview.gif" alt="Small animated preview loop" />
-    </td>
-  </tr>
-  <tr>
-    <td><sub>daily rhythm</sub></td>
-    <td><sub>patient learning</sub></td>
-    <td><sub>small momentum</sub></td>
   </tr>
 </table>
 
-## Current Work
-
-| Track | What I am practicing | Target output |
-| --- | --- | --- |
-| Data workflow | Collection, cleaning, storage, analysis, and visualization. | Notes that can explain the full path of a dataset. |
-| Backend | Java / Spring structure, APIs, database access, and deployment notes. | Small services with readable layers and routes. |
-| Frontend | Vue pages that make project results easier to read. | Clear tables, charts, forms, and interaction states. |
-| Automation | Scripts and GitHub Actions for repeated updates and maintenance. | Fewer manual steps and more consistent records. |
+<img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full July ambient motion" />
 
 ## Selected Repositories
 
@@ -117,6 +99,21 @@ Learning data workflows, backend structure, visualization, and useful automation
 | [app-wechat-page](https://github.com/xyls999/app-wechat-page) | Page | Layout and interaction practice. |
 | [cs-review](https://github.com/xyls999/cs-review) | Notes | Course review and computer science basics. |
 | [lineage-skill](https://github.com/xyls999/lineage-skill) | Knowledge | Reusable knowledge organization experiment. |
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full Frieren motion" />
+    </td>
+    <td width="50%" valign="top">
+      <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
+    </td>
+  </tr>
+  <tr>
+    <td><sub>Longer study rhythm, kept as full motion.</sub></td>
+    <td><sub>Original static visual, not cropped.</sub></td>
+  </tr>
+</table>
 
 ## Stack
 
@@ -145,14 +142,27 @@ Learning data workflows, backend structure, visualization, and useful automation
   </tr>
 </table>
 
-## Study Notes
-
-| Topic | How I record it |
-| --- | --- |
-| Big Data Management | Course concepts, databases, and data workflows. |
-| Backend Development | APIs, database access, service layers, and deployment notes. |
-| Frontend Visualization | Vue pages, tables, and charts for clearer data display. |
-| Automation | Scripts and Actions for reducing repeated work. |
+<table>
+  <tr>
+    <td width="34%" valign="top">
+      <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Full atmospheric motion" />
+    </td>
+    <td width="33%" valign="top">
+      <img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Full ambient scene motion" />
+    </td>
+    <td width="33%" valign="top">
+      <h3>Notes</h3>
+      <p>
+        I keep the moving pieces close to the written sections so they work as
+        rhythm and texture, not as a separate showcase.
+      </p>
+      <p>
+        The README avoids embedded video tags because GitHub filters them in
+        profile pages. These files are full-length animated WebP/GIF assets.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## GitHub Activity
 
@@ -194,4 +204,4 @@ Learning data workflows, backend structure, visualization, and useful automation
 
 ## Reference
 
-Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially `Descriptive`, `Simple but Innovative Ones`, `GIFS`, `Dynamic Realtime`, and `Just Images`: clear information first, real media second, and GitHub-safe widgets only.
+Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially `Descriptive`, `Simple but Innovative Ones`, `GIFS`, `Dynamic Realtime`, and `Just Images`: clear information first, real media second, and GitHub-safe motion only.
