@@ -35,26 +35,37 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="31%" valign="top">
+    <td width="60%" valign="top">
       <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
     </td>
-    <td width="43%" valign="top">
+    <td width="40%" valign="top">
       <h2>Profile</h2>
       <p>
         I mainly study software engineering, while staying curious about computer
         science and related fields that connect code to real environments:
         devices, data, networks, systems, models, and human workflows.
       </p>
-      <table>
-        <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
-        <tr><td><b>Main line</b></td><td>Agent engineering and full-stack systems</td></tr>
-        <tr><td><b>Systems</b></td><td>Linux, operating systems, networks, security</td></tr>
-        <tr><td><b>AI track</b></td><td>Deep learning, reinforcement learning, robotics</td></tr>
-      </table>
+      <p>
+        The profile is organized as a working record rather than a resume wall:
+        each section connects a technical direction with projects, notes, or
+        visual context.
+      </p>
     </td>
-    <td width="26%" valign="top">
-      <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
-    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><b>Base</b></td>
+    <td>Big Data Management and Application</td>
+    <td><b>Main line</b></td>
+    <td>Agent engineering and full-stack systems</td>
+  </tr>
+  <tr>
+    <td><b>Systems</b></td>
+    <td>Linux, operating systems, networks, security</td>
+    <td><b>AI track</b></td>
+    <td>Deep learning, reinforcement learning, robotics</td>
   </tr>
 </table>
 
@@ -62,9 +73,14 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
+    <td width="42%" valign="top">
+      <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
+    </td>
     <td width="58%" valign="top">
       <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full study motion" />
     </td>
+  </tr>
+  <tr>
     <td width="42%" valign="top">
       <h3>Hehai University Zhize Laboratory</h3>
       <p>
@@ -76,6 +92,12 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         The lab setting pushes me to treat projects as more than coursework:
         read the system, build a prototype, test the idea, record the process,
         and make the next attempt clearer.
+      </p>
+    </td>
+    <td width="58%" valign="top">
+      <p>
+        The laboratory context gives my work a practical bias: software should be
+        tested, documented, discussed, and improved through repeated attempts.
       </p>
     </td>
   </tr>
