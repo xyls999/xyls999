@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Learning attitude narrative">
+  <rect width="1200" height="360" fill="#0d1117"/>
+  <rect x="1" y="1" width="1198" height="358" fill="none" stroke="#30363d"/>
+  <rect x="42" y="42" width="6" height="276" fill="#2f6f8f"/>
+  <text x="78" y="92" font-family="Trebuchet MS, Arial Black, Arial, sans-serif" font-size="44" font-weight="800" fill="#f0f6fc">Learning Across Boundaries</text>
+  <text x="80" y="138" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#c9d1d9">I am focused on software direction, but adjacent areas are often where projects become real:</text>
+  <text x="80" y="174" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#c9d1d9">frontend pages need backend contracts, agents need tools and environments, and learning</text>
+  <text x="80" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#c9d1d9">systems need deployment habits before they become useful.</text>
+  <text x="80" y="282" font-family="Consolas, Menlo, monospace" font-size="18" fill="#7a6f52">frontend / backend / OS / network / security / models / robotics</text>
+</svg>

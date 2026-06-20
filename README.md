@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # xyls999 / Dovaklin
 
@@ -40,37 +40,12 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="60%" valign="top">
+    <td width="46%" valign="top">
       <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
     </td>
-    <td width="40%" valign="top">
-      <h2>Profile</h2>
-      <p>
-        I mainly study software engineering, while staying curious about computer
-        science and related fields that connect code to real environments:
-        devices, data, networks, systems, models, and human workflows.
-      </p>
-      <p>
-        The profile is organized as a working record rather than a resume wall:
-        each section connects a technical direction with projects, notes, or
-        visual context.
-      </p>
+    <td width="54%" valign="top">
+      <img width="100%" src="./media/type/profile-card.svg" alt="Profile narrative" />
     </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td><b>Base</b></td>
-    <td>Big Data Management and Application</td>
-    <td><b>Main line</b></td>
-    <td>Agent engineering and full-stack systems</td>
-  </tr>
-  <tr>
-    <td><b>Systems</b></td>
-    <td>Linux, operating systems, networks, security</td>
-    <td><b>AI track</b></td>
-    <td>Deep learning, reinforcement learning, robotics</td>
   </tr>
 </table>
 
@@ -78,32 +53,16 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="42%" valign="top">
+    <td width="40%" valign="top">
       <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
     </td>
-    <td width="58%" valign="top">
-      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full study motion" />
+    <td width="60%" valign="top">
+      <img width="100%" src="./media/type/lab-card.svg" alt="Laboratory narrative" />
     </td>
   </tr>
   <tr>
-    <td width="42%" valign="top">
-      <h3>Hehai University Zhize Laboratory</h3>
-      <p>
-        I am part of Zhize Laboratory at Hehai University, a mostly
-        undergraduate laboratory shaped around technical practice, project
-        exploration, and innovation-oriented learning.
-      </p>
-      <p>
-        The lab setting pushes me to treat projects as more than coursework:
-        read the system, build a prototype, test the idea, record the process,
-        and make the next attempt clearer.
-      </p>
-    </td>
-    <td width="58%" valign="top">
-      <p>
-        The laboratory context gives my work a practical bias: software should be
-        tested, documented, discussed, and improved through repeated attempts.
-      </p>
+    <td colspan="2" valign="top">
+      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full study motion" />
     </td>
   </tr>
 </table>
@@ -146,44 +105,18 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="44%" valign="top">
       <img width="100%" src="./media/sources/dream-map.jpg" alt="Dream map square visual" />
     </td>
-    <td width="50%" valign="top">
-      <h3>Why These Notes Exist</h3>
-      <p>
-        I do not want repositories to be only file storage. A useful repository
-        should show the problem, the path taken, the result, and the next thing
-        to improve.
-      </p>
-      <p>
-        This is why my profile mixes project links with visual markers: each
-        section should feel like a part of a learning record, not a standalone
-        gallery.
-      </p>
-      <p>
-        The goal is not to make every repository look finished. The goal is to
-        make the direction readable, so future work can start from evidence
-        instead of memory.
-      </p>
+    <td width="56%" valign="top">
+      <img width="100%" src="./media/type/repo-card.svg" alt="Repository notes narrative" />
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Learning Attitude</h3>
-      <p>
-        I am especially focused on software direction, but I keep an open
-        interest in adjacent computer-related areas. Operating systems, networks,
-        model deployment, security practice, and robotics often meet in the same
-        project sooner than expected.
-      </p>
-      <p>
-        That overlap is the interesting part: frontend pages need backend
-        contracts, agents need tools and environments, and learning systems need
-        deployment habits before they become useful.
-      </p>
+    <td width="56%" valign="top">
+      <img width="100%" src="./media/type/learning-card.svg" alt="Learning attitude narrative" />
     </td>
-    <td width="50%" valign="top">
+    <td width="44%" valign="top">
       <img width="100%" src="./media/sources/rain-study.jpg" alt="Rain study square visual" />
     </td>
   </tr>
@@ -287,3 +220,4 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 ## Reference
 
 Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially `Descriptive`, `Simple but Innovative Ones`, `GIFS`, `Dynamic Realtime`, and `Just Images`: clear information first, real media second, and GitHub-safe motion only.
+
