@@ -2,81 +2,115 @@
 
 # xyls999 / Dovaklin
 
-Student in **Big Data Management and Application**  
+Student in **Big Data Management and Application**<br />
 Software-oriented learner working across agents, full-stack systems, Linux, networks, security, deep learning, and reinforcement learning.
 
 [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
 [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
 [![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
-[![agent](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#technical-tracks)
+[![focus](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#technical-tracks)
+[![lab](https://img.shields.io/badge/lab-Zhize_Laboratory-7a6f52?style=flat-square)](#laboratory)
 
 </div>
 
 <table>
   <tr>
-    <td width="46%" valign="top">
-      <img width="100%" src="./media/type/profile-home.svg" alt="Profile Home" />
+    <td width="48%" valign="top">
+      <h2>Profile Home</h2>
       <p>
         This profile is my public notebook for software practice, technical
         experiments, and long-term learning. I use it to keep project outcomes,
         references, implementation notes, and ideas that are worth revisiting.
       </p>
       <p>
+        I mainly work toward software direction: agent engineering, backend
+        services, frontend interfaces, Linux environments, networks, security,
+        model deployment, deep learning, reinforcement learning, and robotics.
+      </p>
+      <p>
         I welcome builders from different backgrounds to exchange technical
         views, learning methods, and practical experience. Good engineering is
         rarely a solo path.
       </p>
+    </td>
+    <td width="52%" valign="top">
+      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Animated ambient profile visual" />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="45%" valign="top">
+      <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated journey map" />
+    </td>
+    <td width="55%" valign="top">
+      <h2>Software Practice, Not a Static Resume</h2>
       <p>
-        The work here is intentionally broad, but not random: I like systems
-        that connect interfaces, services, operating environments, models, and
+        I do not want repositories to be only file storage. A useful repository
+        should show the problem, the path taken, the result, and what still needs
+        to be improved.
+      </p>
+      <p>
+        The work here is intentionally broad, but not random. I like systems that
+        connect interfaces, services, operating environments, models, data, and
         tools into something that can be tested and explained.
       </p>
-    </td>
-    <td width="54%" valign="top">
-      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Full ambient motion" />
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="46%" valign="top">
-      <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated map visual" />
-    </td>
-    <td width="54%" valign="top">
-      <img width="100%" src="./media/type/profile-card.svg" alt="Profile narrative" />
+      <table>
+        <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
+        <tr><td><b>Main line</b></td><td>Agent engineering and full-stack systems</td></tr>
+        <tr><td><b>Systems</b></td><td>Linux, operating systems, networks, security</td></tr>
+        <tr><td><b>AI track</b></td><td>Deep learning, reinforcement learning, robotics</td></tr>
+      </table>
     </td>
   </tr>
 </table>
 
-## Laboratory
-
-<table>
-  <tr>
-    <td width="40%" valign="top">
-      <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir illustration original" />
-    </td>
-    <td width="60%" valign="top">
-      <img width="100%" src="./media/type/lab-card.svg" alt="Laboratory narrative" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Full study motion" />
-    </td>
-  </tr>
-</table>
-
-<img width="100%" src="./media/type/technical-tracks.svg" alt="Technical Tracks" />
+<h2 id="laboratory">Laboratory</h2>
 
 <table>
   <tr>
     <td width="42%" valign="top">
+      <img width="100%" src="./media/sources/noir-original.jpg" alt="Noir laboratory visual" />
+    </td>
+    <td width="58%" valign="top">
+      <h3>Hehai University Zhize Laboratory</h3>
+      <p>
+        I belong to Hehai University Zhize Laboratory, a mainly undergraduate
+        laboratory shaped around technical practice, project exploration, and
+        innovation-oriented learning.
+      </p>
+      <p>
+        This context gives my work a practical bias. Software should be tested,
+        discussed, documented, and improved through repeated attempts. A project
+        is more convincing when someone else can read it, run it, and understand
+        why it was built that way.
+      </p>
+      <p>
+        The laboratory atmosphere keeps this profile from becoming a pure resume
+        wall. It should feel like a working bench with selected projects,
+        reproducible notes, learning traces, and technical direction in one
+        place.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<h2 id="technical-tracks">Technical Tracks</h2>
+
+<table>
+  <tr>
+    <td width="52%" valign="top">
+      <img width="100%" src="./media/full-motion/blue-hour-full.webp" alt="Animated blue-hour technical visual" />
+    </td>
+    <td width="48%" valign="top">
+      <h3>Current Direction</h3>
       <table>
         <tr><td><b>Agent engineering</b></td><td>MCP, tool calling, workflow control, agent-side automation.</td></tr>
-        <tr><td><b>Full stack</b></td><td>Java / Spring services, Vue interfaces, APIs, data access, deployment notes.</td></tr>
-        <tr><td><b>Systems</b></td><td>Linux practice, OS reading, network configuration, security labs.</td></tr>
-        <tr><td><b>Learning systems</b></td><td>Deep learning inference, reinforcement learning, robotics, model deployment.</td></tr>
+        <tr><td><b>Backend</b></td><td>Java, Spring services, APIs, persistence, service structure.</td></tr>
+        <tr><td><b>Frontend</b></td><td>Vue, readable interfaces, interaction details, integration practice.</td></tr>
+        <tr><td><b>Systems</b></td><td>Linux, OS reading, networks, security labs, deployment notes.</td></tr>
+        <tr><td><b>AI systems</b></td><td>Deep learning, reinforcement learning, robotics, model deployment.</td></tr>
       </table>
       <p>
         I try to keep each track grounded in small artifacts: a service that
@@ -84,13 +118,10 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         work, or a reproduction log that makes the next attempt easier.
       </p>
     </td>
-    <td width="58%" valign="top">
-      <img width="100%" src="./media/full-motion/blue-hour-full.webp" alt="Full blue-hour motion" />
-    </td>
   </tr>
 </table>
 
-<img width="100%" src="./media/type/repository-notes.svg" alt="Repository Notes" />
+<h2>Selected Repositories</h2>
 
 | Repository | Area | What it is for |
 | --- | --- | --- |
@@ -105,81 +136,122 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="44%" valign="top">
-      <img width="100%" src="./media/sources/dream-map.jpg" alt="Dream map square visual" />
+    <td width="42%" valign="top">
+      <img width="100%" src="./media/sources/dream-map.jpg" alt="Concept map visual" />
     </td>
-    <td width="56%" valign="top">
-      <img width="100%" src="./media/type/repo-card.svg" alt="Repository notes narrative" />
-    </td>
-  </tr>
-  <tr>
-    <td width="56%" valign="top">
-      <img width="100%" src="./media/type/learning-card.svg" alt="Learning attitude narrative" />
-    </td>
-    <td width="44%" valign="top">
-      <img width="100%" src="./media/sources/rain-study.jpg" alt="Rain study square visual" />
+    <td width="58%" valign="top">
+      <h2>Repository Notes</h2>
+      <p>
+        I prefer repositories that keep the reasoning visible. Code is important,
+        but setup notes, tradeoffs, failed attempts, and reproduction steps are
+        what make a project useful after the first commit.
+      </p>
+      <p>
+        This is why the profile mixes project links with visual markers and
+        concise explanations. Each section should feel like part of a learning
+        record, not a detached gallery.
+      </p>
+      <p>
+        My near-term goal is to make selected repositories easier to read,
+        reproduce, and evaluate: clearer README files, smaller verified examples,
+        and more direct notes about what works.
+      </p>
     </td>
   </tr>
 </table>
 
-## Stack
+<table>
+  <tr>
+    <td width="56%" valign="top">
+      <h2>Learning Attitude</h2>
+      <p>
+        I mainly study software engineering, but I keep an open interest in
+        adjacent computer-related areas. Operating systems, networks, security,
+        model deployment, robotics, and data workflows often meet in the same
+        project earlier than expected.
+      </p>
+      <p>
+        I hope to use GitHub as a long-term record of results and knowledge:
+        not only finished code, but also the method behind it, the problems that
+        appeared, and the next question worth asking.
+      </p>
+      <p>
+        To fellow builders and travelers: may your direction stay clear, your
+        tools stay sharp, and your next attempt be better than the last.
+      </p>
+    </td>
+    <td width="44%" valign="top">
+      <img width="100%" src="./media/sources/campfire-study.jpg" alt="Campfire learning visual" />
+    </td>
+  </tr>
+</table>
+
+<h2>Stack</h2>
+
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Animated atmospheric stack visual" />
+    </td>
+    <td width="40%" valign="top">
+      <h3>Daily Tools</h3>
+      <p>
+        <img src="https://img.shields.io/badge/Java-2f6f8f?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+        <img src="https://img.shields.io/badge/Python-2f6f8f?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/JavaScript-2f6f8f?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Vue-2f6f8f?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+        <img src="https://img.shields.io/badge/Spring-2f6f8f?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
+        <img src="https://img.shields.io/badge/Linux-455a64?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+      </p>
+      <h3>Systems and AI</h3>
+      <p>
+        <img src="https://img.shields.io/badge/MySQL-2f6f8f?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+        <img src="https://img.shields.io/badge/SQLite-2f6f8f?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+        <img src="https://img.shields.io/badge/Docker-455a64?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/Jupyter-7a6f52?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+        <img src="https://img.shields.io/badge/PyTorch-7a6f52?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-455a64?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+        <img src="https://img.shields.io/badge/Networking-455a64?style=flat-square&logo=cloudflare&logoColor=white" alt="Networking" />
+        <img src="https://img.shields.io/badge/MCP-2f6f8f?style=flat-square" alt="MCP" />
+      </p>
+      <p>
+        GitHub profile READMEs cannot run custom JavaScript or page-level CSS for
+        cursor-driven effects. The motion here uses GitHub-safe animated media,
+        stable image paths, and native Markdown structure.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<h2>Current Goal</h2>
 
 <table>
   <tr>
     <td width="62%" valign="top">
-      <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Full atmospheric motion" />
+      <h3>Readable, Reproducible, Useful</h3>
+      <p>
+        Improve selected repositories so they are easier to scan and easier to
+        reproduce: clearer setup, smaller examples, better notes, and more honest
+        records of limitations.
+      </p>
+      <p>
+        The profile should stay professional, student-shaped, and personal
+        without becoming noisy. Visuals are used as atmosphere and section rhythm,
+        while the center remains the work itself.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/readable_README-2f6f8f?style=flat-square" alt="Readable README" />
+        <img src="https://img.shields.io/badge/reproducible_examples-7a6f52?style=flat-square" alt="Reproducible examples" />
+        <img src="https://img.shields.io/badge/no_empty_gaps-455a64?style=flat-square" alt="No empty gaps" />
+      </p>
     </td>
     <td width="38%" valign="top">
-      <b>Daily use</b>
-      <br /><br />
-      <img src="https://img.shields.io/badge/Java-2f6f8f?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-      <img src="https://img.shields.io/badge/Python-2f6f8f?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/JavaScript-2f6f8f?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/Vue-2f6f8f?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-      <img src="https://img.shields.io/badge/Spring-2f6f8f?style=flat-square&logo=spring&logoColor=white" alt="Spring" />
-      <img src="https://img.shields.io/badge/Linux-2f6f8f?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-      <br /><br />
-      <b>Systems and AI</b>
-      <br /><br />
-      <img src="https://img.shields.io/badge/MySQL-2f6f8f?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      <img src="https://img.shields.io/badge/SQLite-2f6f8f?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-      <img src="https://img.shields.io/badge/Jupyter-2f6f8f?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-      <img src="https://img.shields.io/badge/Docker-2f6f8f?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      <img src="https://img.shields.io/badge/MCP-2f6f8f?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP" />
-      <img src="https://img.shields.io/badge/PyTorch-2f6f8f?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-2f6f8f?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-      <img src="https://img.shields.io/badge/Networking-2f6f8f?style=flat-square&logo=cloudflare&logoColor=white" alt="Networking" />
+      <img width="100%" src="./media/full-motion/scene-22-panel.webp" alt="Controlled animated goal visual" />
     </td>
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td width="68%" valign="top">
-      <img width="100%" src="./media/type/current-goal.svg" alt="Current Goal" />
-      <p>
-        Make selected repositories easier to read, reproduce, and evaluate:
-        clearer README files, better setup notes, smaller verified examples, and
-        more honest records of what works.
-      </p>
-      <p>
-        GitHub profile READMEs cannot run custom JavaScript for mouse-driven
-        page effects, so the motion here is implemented through GitHub-safe
-        animated media and structured layout instead of scripts.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/profile-readable-2f6f8f?style=flat-square" alt="Readable profile badge" />
-        <img src="https://img.shields.io/badge/media-curated-7a6f52?style=flat-square" alt="Curated media badge" />
-        <img src="https://img.shields.io/badge/layout-no_empty_gaps-455a64?style=flat-square" alt="No empty gaps badge" />
-      </p>
-    </td>
-    <td width="32%" valign="top">
-      <img width="100%" src="./media/full-motion/scene-22-panel.webp" alt="Controlled ambient motion panel" />
-    </td>
-  </tr>
-</table>
-
-## GitHub Activity
+<h2>GitHub Activity</h2>
 
 <div align="center">
 
@@ -219,5 +291,4 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 ## Reference
 
-Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially `Descriptive`, `Simple but Innovative Ones`, `GIFS`, `Dynamic Realtime`, and `Just Images`: clear information first, real media second, and GitHub-safe motion only.
-
+Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially descriptive profiles, simple but innovative pages, GIF usage, dynamic realtime blocks, and image-led profile sections.
