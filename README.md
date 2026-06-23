@@ -15,7 +15,7 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="48%" valign="top">
+    <td width="50%" valign="top">
       <h2>Profile Home</h2>
       <p>
         This profile is my public notebook for software practice, technical
@@ -33,8 +33,8 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
         rarely a solo path.
       </p>
     </td>
-    <td width="52%" valign="top">
-      <img width="100%" src="./media/full-motion/july-22-full.webp" alt="Animated ambient profile visual" />
+    <td width="50%" valign="top">
+      <img width="100%" src="./media/covers/profile-home-cover.webp" alt="Profile cover visual" />
     </td>
   </tr>
 </table>
@@ -100,10 +100,10 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="52%" valign="top">
-      <img width="100%" src="./media/full-motion/blue-hour-full.webp" alt="Animated blue-hour technical visual" />
+    <td width="34%" valign="top">
+      <img width="100%" src="./media/covers/technical-cover.webp" alt="Technical track cover visual" />
     </td>
-    <td width="48%" valign="top">
+    <td width="66%" valign="top">
       <h3>Current Direction</h3>
       <table>
         <tr><td><b>Agent engineering</b></td><td>MCP, tool calling, workflow control, agent-side automation.</td></tr>
@@ -190,10 +190,10 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 
 <table>
   <tr>
-    <td width="60%" valign="top">
-      <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Animated atmospheric stack visual" />
+    <td width="46%" valign="top">
+      <img width="100%" src="./media/covers/stack-cover.webp" alt="Stack cover visual" />
     </td>
-    <td width="40%" valign="top">
+    <td width="54%" valign="top">
       <h3>Daily Tools</h3>
       <p>
         <img src="https://img.shields.io/badge/Java-2f6f8f?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
@@ -246,7 +246,7 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
       </p>
     </td>
     <td width="38%" valign="top">
-      <img width="100%" src="./media/full-motion/scene-22-panel.webp" alt="Controlled animated goal visual" />
+      <img width="100%" src="./media/covers/goal-cover.webp" alt="Controlled goal cover visual" />
     </td>
   </tr>
 </table>
@@ -292,3 +292,4 @@ Software-oriented learner working across agents, full-stack systems, Linux, netw
 ## Reference
 
 Layout direction inspired by [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme), especially descriptive profiles, simple but innovative pages, GIF usage, dynamic realtime blocks, and image-led profile sections.
+
