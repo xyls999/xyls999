@@ -161,34 +161,6 @@
   </tr>
 </table>
 
-## Current Goal
-
-<table>
-  <tr>
-    <td width="60%" valign="top">
-      <h3>Readable, Reproducible, Useful</h3>
-      <p>
-        Improve selected repositories so they are easier to scan and easier to
-        reproduce: clearer setup, smaller examples, better notes, and more
-        honest records of limitations.
-      </p>
-      <p>
-        The profile should stay professional, student-shaped, and personal
-        without becoming noisy. Visuals are used as atmosphere and section
-        rhythm, while the center remains the work itself.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/readable_README-2f6f8f?style=flat-square" alt="Readable README" />
-        <img src="https://img.shields.io/badge/reproducible_examples-7a6f52?style=flat-square" alt="Reproducible examples" />
-        <img src="https://img.shields.io/badge/no_empty_gaps-455a64?style=flat-square" alt="No empty gaps" />
-      </p>
-    </td>
-    <td width="40%" valign="top">
-      <img width="100%" src="./media/full-motion/scene-22-panel.webp" alt="Animated goal atmosphere" />
-    </td>
-  </tr>
-</table>
-
 ## GitHub Activity
 
 <div align="center">
