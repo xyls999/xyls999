@@ -4,18 +4,7 @@
       <h1>xyls999 / Dovaklin</h1>
       <p>
         Student in <strong>Big Data Management and Application</strong>, working
-        mainly across agents, full-stack systems, Linux, networks, security,
-        and applied AI.
-      </p>
-      <p>
-        This profile is a working log for experiments, notes, and project
-        snapshots. I keep the page readable, reproducible, and honest about
-        what still needs polishing.
-      </p>
-      <p>
-        I welcome builders from different backgrounds to exchange technical
-        views and practical experience. Good engineering is rarely a solo
-        path.
+        mainly across agents, full-stack systems, Linux, networks, security,and applied AI.
       </p>
     </td>
     <td width="44%" valign="top">
@@ -23,14 +12,6 @@
     </td>
   </tr>
 </table>
-
-<p>
-  [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
-  [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
-  [![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
-  [![focus](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#technical-tracks)
-  [![lab](https://img.shields.io/badge/lab-Zhize_Laboratory-7a6f52?style=flat-square)](#laboratory)
-</p>
 
 ## Software Practice, Not a Static Resume
 
@@ -44,11 +25,6 @@
         I do not want repositories to be only file storage. A useful repository
         should show the problem, the path taken, the result, and what still
         needs to be improved.
-      </p>
-      <p>
-        The work here is intentionally broad, but not random. I like systems
-        that connect interfaces, services, operating environments, models,
-        data, and tools into something that can be tested and explained.
       </p>
       <table>
         <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
@@ -87,30 +63,7 @@
   </tr>
 </table>
 
-<h2 id="technical-tracks">Technical Tracks</h2>
 
-<table>
-  <tr>
-    <td width="46%" valign="top">
-      <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Animated technical direction visual" />
-    </td>
-    <td width="54%" valign="top">
-      <h3>Current Direction</h3>
-      <table>
-        <tr><td><b>Agent engineering</b></td><td>MCP, tool calling, workflow control, agent-side automation.</td></tr>
-        <tr><td><b>Backend</b></td><td>Java, Spring services, APIs, persistence, service structure.</td></tr>
-        <tr><td><b>Frontend</b></td><td>Vue, readable interfaces, interaction details, integration practice.</td></tr>
-        <tr><td><b>Systems</b></td><td>Linux, OS reading, networks, security labs, deployment notes.</td></tr>
-        <tr><td><b>AI systems</b></td><td>Deep learning, reinforcement learning, robotics, model deployment.</td></tr>
-      </table>
-      <p>
-        I try to keep each track grounded in small artifacts: a service that
-        runs, a note that explains the setup, a script that removes repeated
-        work, or a reproduction log that makes the next attempt easier.
-      </p>
-    </td>
-  </tr>
-</table>
 
 ## Selected Repositories
 
