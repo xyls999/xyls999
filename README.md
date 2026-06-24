@@ -1,45 +1,45 @@
 <table>
   <tr>
-    <td width="58%" valign="top">
+    <td width="56%" valign="top">
       <h1>xyls999 / Dovaklin</h1>
       <p>
-        Student in <strong>Big Data Management and Application</strong><br />
-        Software-oriented learner working across agents, full-stack systems,
-        Linux, networks, security, deep learning, reinforcement learning, and
-        robotics.
+        Student in <strong>Big Data Management and Application</strong>, working
+        mainly across agents, full-stack systems, Linux, networks, security,
+        and applied AI.
       </p>
       <p>
-        This profile is a public notebook for software practice, technical
-        experiments, and long-term learning. It keeps project outcomes,
-        references, implementation notes, and ideas worth revisiting.
+        This profile is a working log for experiments, notes, and project
+        snapshots. I keep the page readable, reproducible, and honest about
+        what still needs polishing.
       </p>
       <p>
         I welcome builders from different backgrounds to exchange technical
-        views, learning methods, and practical experience. Good engineering is
-        rarely a solo path.
-      </p>
-      <p>
-        [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
-        [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
-        [![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
-        [![focus](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#technical-tracks)
-        [![lab](https://img.shields.io/badge/lab-Zhize_Laboratory-7a6f52?style=flat-square)](#laboratory)
+        views and practical experience. Good engineering is rarely a solo
+        path.
       </p>
     </td>
-    <td width="42%" valign="top">
+    <td width="44%" valign="top">
       <img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Animated profile atmosphere" />
     </td>
   </tr>
 </table>
 
+<p>
+  [![visits](https://komarev.com/ghpvc/?username=xyls999&style=flat-square&color=2f6f8f&label=visits)](https://github.com/xyls999)
+  [![followers](https://img.shields.io/github/followers/xyls999?style=flat-square&label=followers&color=2f6f8f)](https://github.com/xyls999?tab=followers)
+  [![repositories](https://img.shields.io/badge/repositories-open-2f6f8f?style=flat-square&logo=github)](https://github.com/xyls999?tab=repositories)
+  [![focus](https://img.shields.io/badge/focus-agent_systems-2f6f8f?style=flat-square)](#technical-tracks)
+  [![lab](https://img.shields.io/badge/lab-Zhize_Laboratory-7a6f52?style=flat-square)](#laboratory)
+</p>
+
 ## Software Practice, Not a Static Resume
 
 <table>
   <tr>
-    <td width="44%" valign="top">
+    <td width="48%" valign="top">
       <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated journey map" />
     </td>
-    <td width="56%" valign="top">
+    <td width="52%" valign="top">
       <p>
         I do not want repositories to be only file storage. A useful repository
         should show the problem, the path taken, the result, and what still
@@ -54,7 +54,7 @@
         <tr><td><b>Base</b></td><td>Big Data Management and Application</td></tr>
         <tr><td><b>Main line</b></td><td>Agent engineering and full-stack systems</td></tr>
         <tr><td><b>Systems</b></td><td>Linux, operating systems, networks, security</td></tr>
-        <tr><td><b>AI track</b></td><td>Deep learning, reinforcement learning, robotics</td></tr>
+        <tr><td><b>AI track</b></td><td>Deep learning, reinforcement learning, robotics, deployment</td></tr>
       </table>
     </td>
   </tr>
@@ -64,7 +64,7 @@
 
 <table>
   <tr>
-    <td width="56%" valign="top">
+    <td width="54%" valign="top">
       <h3>Hehai University Zhize Laboratory</h3>
       <p>
         I belong to <strong>Hehai University Zhize Laboratory</strong>, a
@@ -78,11 +78,10 @@
       <p>
         The laboratory atmosphere keeps this profile from becoming a pure resume
         wall. It should feel like a working bench with selected projects,
-        reproducible notes, learning traces, and technical direction in one
-        place.
+        reproducible notes, learning traces, and technical direction in one place.
       </p>
     </td>
-    <td width="44%" valign="top">
+    <td width="46%" valign="top">
       <img width="100%" src="./media/sources/noir-original.jpg" alt="Laboratory practice visual" />
     </td>
   </tr>
@@ -92,10 +91,10 @@
 
 <table>
   <tr>
-    <td width="40%" valign="top">
+    <td width="46%" valign="top">
       <img width="100%" src="./media/full-motion/disco-four-full.webp" alt="Animated technical direction visual" />
     </td>
-    <td width="60%" valign="top">
+    <td width="54%" valign="top">
       <h3>Current Direction</h3>
       <table>
         <tr><td><b>Agent engineering</b></td><td>MCP, tool calling, workflow control, agent-side automation.</td></tr>
@@ -249,11 +248,7 @@
 <details>
 <summary>More stats</summary>
 
-<div align="center">
-
 ![Metrics](./github-metrics.svg)
-
-</div>
 
 </details>
 
