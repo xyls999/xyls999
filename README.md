@@ -160,16 +160,6 @@
     </td>
   </tr>
 </table>
-
-## GitHub Activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=xyls999&show_icons=true&theme=default&hide_border=true&rank_icon=github&locale=en" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xyls999&layout=compact&theme=default&hide_border=true&locale=en" alt="Top languages" />
-
-</div>
-
 <details>
 <summary>More stats</summary>
 
