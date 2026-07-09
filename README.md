@@ -8,7 +8,7 @@
       </p>
     </td>
     <td width="44%" valign="top">
-      <img width="100%" src="./media/full-motion/scene-22-full.webp" alt="Animated profile atmosphere" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/full-motion/scene-22-full.webp" alt="Animated profile atmosphere" />
     </td>
   </tr>
 </table>
@@ -18,7 +18,7 @@
 <table>
   <tr>
     <td width="48%" valign="top">
-      <img width="100%" src="./media/sources/traveler-map.jpg" alt="Illustrated journey map" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/sources/traveler-map.jpg" alt="Illustrated journey map" />
     </td>
     <td width="52%" valign="top">
       <p>
@@ -58,7 +58,7 @@
       </p>
     </td>
     <td width="46%" valign="top">
-      <img width="100%" src="./media/sources/noir-original.jpg" alt="Laboratory practice visual" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/sources/noir-original.jpg" alt="Laboratory practice visual" />
     </td>
   </tr>
 </table>
@@ -83,7 +83,7 @@
 <table>
   <tr>
     <td width="46%" valign="top">
-      <img width="100%" src="./media/sources/dream-map.jpg" alt="Concept map visual" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/sources/dream-map.jpg" alt="Concept map visual" />
     </td>
     <td width="54%" valign="top">
       <p>
@@ -124,7 +124,7 @@
       </p>
     </td>
     <td width="44%" valign="top">
-      <img width="100%" src="./media/sources/campfire-study.jpg" alt="Campfire learning visual" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/sources/campfire-study.jpg" alt="Campfire learning visual" />
     </td>
   </tr>
 </table>
@@ -134,7 +134,7 @@
 <table>
   <tr>
     <td width="42%" valign="top">
-      <img width="100%" src="./media/full-motion/frieren-full.webp" alt="Animated stack atmosphere" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/full-motion/frieren-full.webp" alt="Animated stack atmosphere" />
     </td>
     <td width="58%" valign="top">
       <h3>Daily Tools</h3>
@@ -163,7 +163,7 @@
 <details>
 <summary>More stats</summary>
 
-![Metrics](./github-metrics.svg)
+![Metrics](https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/github-metrics.svg)
 
 </details>
 
@@ -181,7 +181,7 @@
 <details>
 <summary>3D Contribution</summary>
 
-<img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+<img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
 
 </details>
 
