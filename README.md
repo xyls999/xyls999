@@ -8,7 +8,7 @@
       </p>
     </td>
     <td width="44%" valign="top">
-      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/full-motion/frieren-preview-original.gif" alt="Animated profile atmosphere" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/full-motion/frieren-full.webp" alt="Animated profile atmosphere" />
     </td>
   </tr>
 </table>
@@ -134,7 +134,7 @@
 <table>
   <tr>
     <td width="42%" valign="top">
-      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/full-motion/frieren-full.webp" alt="Animated stack atmosphere" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/full-motion/magic-circle-full.webp" alt="Animated stack atmosphere" />
     </td>
     <td width="58%" valign="top">
       <h3>Daily Tools</h3>
