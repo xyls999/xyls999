@@ -8,7 +8,7 @@
       </p>
     </td>
     <td width="44%" valign="top">
-      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/full-motion/scene-22-full.webp" alt="Animated profile atmosphere" />
+      <img width="100%" src="https://cdn.jsdelivr.net/gh/xyls999/xyls999@main/media/sources/dream-map.jpg" alt="Profile atmosphere" />
     </td>
   </tr>
 </table>
